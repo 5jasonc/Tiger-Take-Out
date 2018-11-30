@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TigerTakeOut", "TigerTakeOut\TigerTakeOut.csproj", "{5FBB0527-4D10-4B94-8AD2-A7BBBF90EBB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBB0527-4D10-4B94-8AD2-A7BBBF90EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBB0527-4D10-4B94-8AD2-A7BBBF90EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBB0527-4D10-4B94-8AD2-A7BBBF90EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBB0527-4D10-4B94-8AD2-A7BBBF90EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AA1E31B-94C2-46BF-914F-1097F0A250CE}
+	EndGlobalSection
+EndGlobal
