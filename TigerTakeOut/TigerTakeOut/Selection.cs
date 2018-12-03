@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TigerTakeOut
 {
-    public partial class Form1 : Form
+    public partial class Selection : Form
     {
-        public Form1()
+        public Selection()
         {
             InitializeComponent();
         }

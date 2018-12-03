@@ -1,6 +1,6 @@
 ﻿namespace TigerTakeOut
 {
-    partial class Form1
+    partial class Selection
     {
         /// <summary>
         /// Required designer variable.
