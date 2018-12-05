@@ -45,6 +45,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -149,7 +150,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(233, 84);
             this.button7.TabIndex = 10;
-            this.button7.Text = "Homewrecker Burrito\r\n$8.69";
+            this.button7.Text = "Close Talker Salad\r\n$8.59";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -159,7 +160,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(233, 84);
             this.button8.TabIndex = 11;
-            this.button8.Text = "Homewrecker Burrito\r\n$8.69";
+            this.button8.Text = "Side of Queso\r\n$1.20";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // label5
@@ -180,7 +181,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(233, 84);
             this.button9.TabIndex = 16;
-            this.button9.Text = "Homewrecker Burrito\r\n$8.69";
+            this.button9.Text = "Cookie\r\n$1.00";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -190,7 +191,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(233, 84);
             this.button10.TabIndex = 15;
-            this.button10.Text = "Homewrecker Burrito\r\n$8.69";
+            this.button10.Text = "Side of Guac\r\n$1.20";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
@@ -223,6 +224,15 @@
             this.button4.Text = "Joey Jr. Burrito\r\n$7.29";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label6.Location = new System.Drawing.Point(683, 543);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(3, 260);
+            this.label6.TabIndex = 53;
+            // 
             // Moes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -230,6 +240,7 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button11);
@@ -275,5 +286,6 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label6;
     }
 }

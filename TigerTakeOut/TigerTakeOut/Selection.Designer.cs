@@ -58,7 +58,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(657, 27);
             this.comboBox1.TabIndex = 2;
-            this.comboBox1.Text = "Resturant";
+            this.comboBox1.Text = "Restaurant";
             // 
             // Selection
             // 
