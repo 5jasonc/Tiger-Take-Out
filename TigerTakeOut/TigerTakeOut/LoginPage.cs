@@ -16,5 +16,15 @@ namespace TigerTakeOut
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passlabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
