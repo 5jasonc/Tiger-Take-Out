@@ -9,20 +9,27 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 // Jason Streeter
-// 12/3/18
+// 12/5/18
 // Tiger Take Out
-// orderTracking.cs - holds all events on the order tracking form.
+// OrderTracking.cs - holds all events on the order tracking form.
 
 namespace TigerTakeOut
 {
-    public partial class orderTracking : Form
+    public partial class OrderTracking : Form
     {
-        public orderTracking()
+        // Fields //
+        CancelOrder cancelForm = new CancelOrder();
+
+        // Constructor //
+        public OrderTracking()
         {
             InitializeComponent();
             orderTimer.Start();
         }
 
+        // Events //
+
+        // Progresses order progress bar and updates information about progress of order
         private void orderTimer_Tick(object sender, EventArgs e)
         {
             // Increases progress bar to indicate order being completed
@@ -37,29 +44,25 @@ namespace TigerTakeOut
             else { orderInfoLabel.Text = "Order is on its way!"; }
         }
 
-        private void complaintNumberLabel_Click(object sender, EventArgs e)
+        // Opens new form to confirm user wants to cancel order, acts accordingly based on user choice
+        private void cancelOrderButton_Click(object sender, EventArgs e)
         {
+            if (!cancelForm.IsOrderCancelled())
+            {
+                cancelForm.ShowDialog();
 
+                if (cancelForm.IsOrderCancelled())
+                {
+                    orderTimer.Stop();
+                    orderInfoLabel.Text = "Order cancelled...";
+                }
+            }
+            else { MessageBox.Show("Order has already been cancelled!"); }
         }
 
-        private void orderIssueLabel_Click(object sender, EventArgs e)
+        private void goBackButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void orderSummaryLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void studentIDLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void addressLabel_Click(object sender, EventArgs e)
-        {
-
+            // Add action for going back a page
         }
     }
 }

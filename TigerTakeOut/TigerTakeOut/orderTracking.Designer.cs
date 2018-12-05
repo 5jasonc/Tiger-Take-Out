@@ -1,6 +1,6 @@
 ﻿namespace TigerTakeOut
 {
-    partial class orderTracking
+    partial class OrderTracking
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(orderTracking));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderTracking));
             this.goBackButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cancelOrderButton = new System.Windows.Forms.Button();
             this.orderProgressLabel = new System.Windows.Forms.Label();
             this.orderProgress = new System.Windows.Forms.ProgressBar();
             this.orderInfoLabel = new System.Windows.Forms.Label();
@@ -56,25 +56,27 @@
             this.goBackButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goBackButton.ForeColor = System.Drawing.Color.White;
             this.goBackButton.Location = new System.Drawing.Point(11, 790);
-            this.goBackButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.goBackButton.Margin = new System.Windows.Forms.Padding(2);
             this.goBackButton.Name = "goBackButton";
             this.goBackButton.Size = new System.Drawing.Size(212, 60);
             this.goBackButton.TabIndex = 0;
             this.goBackButton.Text = "Go Back";
             this.goBackButton.UseVisualStyleBackColor = false;
+            this.goBackButton.Click += new System.EventHandler(this.goBackButton_Click);
             // 
-            // button1
+            // cancelOrderButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(60)))), ((int)(((byte)(49)))));
-            this.button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(666, 480);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 37);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Cancel Order";
-            this.button1.UseVisualStyleBackColor = false;
+            this.cancelOrderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(60)))), ((int)(((byte)(49)))));
+            this.cancelOrderButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancelOrderButton.ForeColor = System.Drawing.Color.White;
+            this.cancelOrderButton.Location = new System.Drawing.Point(666, 480);
+            this.cancelOrderButton.Margin = new System.Windows.Forms.Padding(2);
+            this.cancelOrderButton.Name = "cancelOrderButton";
+            this.cancelOrderButton.Size = new System.Drawing.Size(128, 37);
+            this.cancelOrderButton.TabIndex = 1;
+            this.cancelOrderButton.Text = "Cancel Order";
+            this.cancelOrderButton.UseVisualStyleBackColor = false;
+            this.cancelOrderButton.Click += new System.EventHandler(this.cancelOrderButton_Click);
             // 
             // orderProgressLabel
             // 
@@ -93,10 +95,11 @@
             this.orderProgress.BackColor = System.Drawing.Color.White;
             this.orderProgress.ForeColor = System.Drawing.Color.DarkOrange;
             this.orderProgress.Location = new System.Drawing.Point(63, 395);
-            this.orderProgress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.orderProgress.Margin = new System.Windows.Forms.Padding(2);
             this.orderProgress.Maximum = 500;
             this.orderProgress.Name = "orderProgress";
             this.orderProgress.Size = new System.Drawing.Size(731, 28);
+            this.orderProgress.Step = 5;
             this.orderProgress.TabIndex = 3;
             // 
             // orderInfoLabel
@@ -122,7 +125,6 @@
             this.orderIssueLabel.Size = new System.Drawing.Size(82, 14);
             this.orderIssueLabel.TabIndex = 5;
             this.orderIssueLabel.Text = "Have an Issue?";
-            this.orderIssueLabel.Click += new System.EventHandler(this.orderIssueLabel_Click);
             // 
             // complaintNumberLabel
             // 
@@ -135,7 +137,6 @@
             this.complaintNumberLabel.Size = new System.Drawing.Size(82, 14);
             this.complaintNumberLabel.TabIndex = 6;
             this.complaintNumberLabel.Text = "(123) 456-7891";
-            this.complaintNumberLabel.Click += new System.EventHandler(this.complaintNumberLabel_Click);
             // 
             // orderSummaryLabel
             // 
@@ -148,7 +149,6 @@
             this.orderSummaryLabel.Size = new System.Drawing.Size(225, 29);
             this.orderSummaryLabel.TabIndex = 7;
             this.orderSummaryLabel.Text = "Order Information:";
-            this.orderSummaryLabel.Click += new System.EventHandler(this.orderSummaryLabel_Click);
             // 
             // addressLabel
             // 
@@ -161,7 +161,6 @@
             this.addressLabel.Size = new System.Drawing.Size(216, 18);
             this.addressLabel.TabIndex = 8;
             this.addressLabel.Text = "Address: 181C Perkin\'s Road";
-            this.addressLabel.Click += new System.EventHandler(this.addressLabel_Click);
             // 
             // studentIDLabel
             // 
@@ -174,7 +173,6 @@
             this.studentIDLabel.Size = new System.Drawing.Size(169, 18);
             this.studentIDLabel.TabIndex = 9;
             this.studentIDLabel.Text = "Student ID: 123456789";
-            this.studentIDLabel.Click += new System.EventHandler(this.studentIDLabel_Click);
             // 
             // phoneNumberLabel
             // 
@@ -265,7 +263,7 @@
             // 
             this.orderTimer.Tick += new System.EventHandler(this.orderTimer_Tick);
             // 
-            // orderTracking
+            // OrderTracking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -287,10 +285,10 @@
             this.Controls.Add(this.orderInfoLabel);
             this.Controls.Add(this.orderProgress);
             this.Controls.Add(this.orderProgressLabel);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cancelOrderButton);
             this.Controls.Add(this.goBackButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "orderTracking";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "OrderTracking";
             this.Text = "Tiger Take Out";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -300,7 +298,7 @@
         #endregion
 
         private System.Windows.Forms.Button goBackButton;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cancelOrderButton;
         private System.Windows.Forms.Label orderProgressLabel;
         private System.Windows.Forms.ProgressBar orderProgress;
         private System.Windows.Forms.Label orderInfoLabel;
