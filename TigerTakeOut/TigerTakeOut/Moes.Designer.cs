@@ -30,21 +30,21 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.burrito1 = new System.Windows.Forms.Button();
+            this.burrito2 = new System.Windows.Forms.Button();
+            this.burrito3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.dila2 = new System.Windows.Forms.Button();
+            this.dilla1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.side1 = new System.Windows.Forms.Button();
+            this.side2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.side4 = new System.Windows.Forms.Button();
+            this.side3 = new System.Windows.Forms.Button();
+            this.taco2 = new System.Windows.Forms.Button();
+            this.taco1 = new System.Windows.Forms.Button();
+            this.burrito4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -70,36 +70,38 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Burritos";
             // 
-            // button1
+            // burrito1
             // 
-            this.button1.Location = new System.Drawing.Point(181, 358);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(233, 84);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Homewrecker Burrito\r\n$8.69";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.burrito1.Location = new System.Drawing.Point(181, 358);
+            this.burrito1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.burrito1.Name = "burrito1";
+            this.burrito1.Size = new System.Drawing.Size(233, 84);
+            this.burrito1.TabIndex = 2;
+            this.burrito1.Text = "Homewrecker Burrito\r\n$8.69";
+            this.burrito1.UseVisualStyleBackColor = true;
+            this.burrito1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // burrito2
             // 
-            this.button2.Location = new System.Drawing.Point(434, 358);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(233, 84);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Homewrecker Jr. Burrito\r\n$8.19";
-            this.button2.UseVisualStyleBackColor = true;
+            this.burrito2.Location = new System.Drawing.Point(434, 358);
+            this.burrito2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.burrito2.Name = "burrito2";
+            this.burrito2.Size = new System.Drawing.Size(233, 84);
+            this.burrito2.TabIndex = 3;
+            this.burrito2.Text = "Homewrecker Jr. Burrito\r\n$8.19";
+            this.burrito2.UseVisualStyleBackColor = true;
+            this.burrito2.Click += new System.EventHandler(this.burrito2_Click);
             // 
-            // button3
+            // burrito3
             // 
-            this.button3.Location = new System.Drawing.Point(708, 358);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(233, 84);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Joey Bag of Donuts Burrito\r\n$7.79";
-            this.button3.UseVisualStyleBackColor = true;
+            this.burrito3.Location = new System.Drawing.Point(708, 358);
+            this.burrito3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.burrito3.Name = "burrito3";
+            this.burrito3.Size = new System.Drawing.Size(233, 84);
+            this.burrito3.TabIndex = 4;
+            this.burrito3.Text = "Joey Bag of Donuts Burrito\r\n$7.79";
+            this.burrito3.UseVisualStyleBackColor = true;
+            this.burrito3.Click += new System.EventHandler(this.burrito3_Click);
             // 
             // label3
             // 
@@ -112,25 +114,27 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Quesadillas";
             // 
-            // button5
+            // dila2
             // 
-            this.button5.Location = new System.Drawing.Point(434, 543);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(233, 84);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "First Rule of Chicken Club Quesadilla\r\n$8.99";
-            this.button5.UseVisualStyleBackColor = true;
+            this.dila2.Location = new System.Drawing.Point(434, 543);
+            this.dila2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.dila2.Name = "dila2";
+            this.dila2.Size = new System.Drawing.Size(233, 84);
+            this.dila2.TabIndex = 7;
+            this.dila2.Text = "First Rule of Chicken Club Quesadilla\r\n$8.99";
+            this.dila2.UseVisualStyleBackColor = true;
+            this.dila2.Click += new System.EventHandler(this.dila2_Click);
             // 
-            // button6
+            // dilla1
             // 
-            this.button6.Location = new System.Drawing.Point(181, 543);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(233, 84);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "John Coctostan Quesadilla\r\n$7.89";
-            this.button6.UseVisualStyleBackColor = true;
+            this.dilla1.Location = new System.Drawing.Point(181, 543);
+            this.dilla1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.dilla1.Name = "dilla1";
+            this.dilla1.Size = new System.Drawing.Size(233, 84);
+            this.dilla1.TabIndex = 8;
+            this.dilla1.Text = "John Coctostan Quesadilla\r\n$7.89";
+            this.dilla1.UseVisualStyleBackColor = true;
+            this.dilla1.Click += new System.EventHandler(this.dilla1_Click);
             // 
             // label4
             // 
@@ -143,25 +147,27 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Sides";
             // 
-            // button7
+            // side1
             // 
-            this.button7.Location = new System.Drawing.Point(708, 543);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(233, 84);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Close Talker Salad\r\n$8.59";
-            this.button7.UseVisualStyleBackColor = true;
+            this.side1.Location = new System.Drawing.Point(708, 543);
+            this.side1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side1.Name = "side1";
+            this.side1.Size = new System.Drawing.Size(233, 84);
+            this.side1.TabIndex = 10;
+            this.side1.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side1.UseVisualStyleBackColor = true;
+            this.side1.Click += new System.EventHandler(this.side1_Click);
             // 
-            // button8
+            // side2
             // 
-            this.button8.Location = new System.Drawing.Point(956, 543);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(233, 84);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Side of Queso\r\n$1.20";
-            this.button8.UseVisualStyleBackColor = true;
+            this.side2.Location = new System.Drawing.Point(956, 543);
+            this.side2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side2.Name = "side2";
+            this.side2.Size = new System.Drawing.Size(233, 84);
+            this.side2.TabIndex = 11;
+            this.side2.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side2.UseVisualStyleBackColor = true;
+            this.side2.Click += new System.EventHandler(this.side2_Click);
             // 
             // label5
             // 
@@ -174,55 +180,60 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Tacos";
             // 
-            // button9
+            // side4
             // 
-            this.button9.Location = new System.Drawing.Point(956, 719);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(233, 84);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "Cookie\r\n$1.00";
-            this.button9.UseVisualStyleBackColor = true;
+            this.side4.Location = new System.Drawing.Point(956, 719);
+            this.side4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side4.Name = "side4";
+            this.side4.Size = new System.Drawing.Size(233, 84);
+            this.side4.TabIndex = 16;
+            this.side4.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side4.UseVisualStyleBackColor = true;
+            this.side4.Click += new System.EventHandler(this.side4_Click);
             // 
-            // button10
+            // side3
             // 
-            this.button10.Location = new System.Drawing.Point(708, 719);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(233, 84);
-            this.button10.TabIndex = 15;
-            this.button10.Text = "Side of Guac\r\n$1.20";
-            this.button10.UseVisualStyleBackColor = true;
+            this.side3.Location = new System.Drawing.Point(708, 719);
+            this.side3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side3.Name = "side3";
+            this.side3.Size = new System.Drawing.Size(233, 84);
+            this.side3.TabIndex = 15;
+            this.side3.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side3.UseVisualStyleBackColor = true;
+            this.side3.Click += new System.EventHandler(this.side3_Click);
             // 
-            // button11
+            // taco2
             // 
-            this.button11.Location = new System.Drawing.Point(434, 719);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(233, 84);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "2 Three Amigos Tacos\r\n$7.99";
-            this.button11.UseVisualStyleBackColor = true;
+            this.taco2.Location = new System.Drawing.Point(434, 719);
+            this.taco2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.taco2.Name = "taco2";
+            this.taco2.Size = new System.Drawing.Size(233, 84);
+            this.taco2.TabIndex = 14;
+            this.taco2.Text = "2 Three Amigos Tacos\r\n$7.99";
+            this.taco2.UseVisualStyleBackColor = true;
+            this.taco2.Click += new System.EventHandler(this.taco2_Click);
             // 
-            // button12
+            // taco1
             // 
-            this.button12.Location = new System.Drawing.Point(181, 719);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(233, 84);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "3 Three Amigos Tacos\r\n$9.99";
-            this.button12.UseVisualStyleBackColor = true;
+            this.taco1.Location = new System.Drawing.Point(181, 719);
+            this.taco1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.taco1.Name = "taco1";
+            this.taco1.Size = new System.Drawing.Size(233, 84);
+            this.taco1.TabIndex = 13;
+            this.taco1.Text = "3 Three Amigos Tacos\r\n$9.99";
+            this.taco1.UseVisualStyleBackColor = true;
+            this.taco1.Click += new System.EventHandler(this.taco1_Click);
             // 
-            // button4
+            // burrito4
             // 
-            this.button4.Location = new System.Drawing.Point(956, 358);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(233, 84);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Joey Jr. Burrito\r\n$7.29";
-            this.button4.UseVisualStyleBackColor = true;
+            this.burrito4.Location = new System.Drawing.Point(956, 358);
+            this.burrito4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.burrito4.Name = "burrito4";
+            this.burrito4.Size = new System.Drawing.Size(233, 84);
+            this.burrito4.TabIndex = 5;
+            this.burrito4.Text = "Joey Jr. Burrito\r\n$7.29";
+            this.burrito4.UseVisualStyleBackColor = true;
+            this.burrito4.Click += new System.EventHandler(this.burrito4_Click);
             // 
             // label6
             // 
@@ -231,7 +242,7 @@
             this.label6.Location = new System.Drawing.Point(683, 543);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(3, 260);
-            this.label6.TabIndex = 53;
+            this.label6.TabIndex = 54;
             // 
             // Moes
             // 
@@ -241,21 +252,21 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.side4);
+            this.Controls.Add(this.side3);
+            this.Controls.Add(this.taco2);
+            this.Controls.Add(this.taco1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.side2);
+            this.Controls.Add(this.side1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.dilla1);
+            this.Controls.Add(this.dila2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.burrito4);
+            this.Controls.Add(this.burrito3);
+            this.Controls.Add(this.burrito2);
+            this.Controls.Add(this.burrito1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -271,21 +282,21 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button burrito1;
+        private System.Windows.Forms.Button burrito2;
+        private System.Windows.Forms.Button burrito3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button dila2;
+        private System.Windows.Forms.Button dilla1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button side1;
+        private System.Windows.Forms.Button side2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button side4;
+        private System.Windows.Forms.Button side3;
+        private System.Windows.Forms.Button taco2;
+        private System.Windows.Forms.Button taco1;
+        private System.Windows.Forms.Button burrito4;
         private System.Windows.Forms.Label label6;
     }
 }
