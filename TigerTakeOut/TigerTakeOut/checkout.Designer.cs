@@ -43,11 +43,26 @@
             this.price3 = new System.Windows.Forms.Label();
             this.price4 = new System.Windows.Forms.Label();
             this.price5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.line1 = new System.Windows.Forms.Label();
             this.subtotalLabel = new System.Windows.Forms.Label();
             this.subtotal = new System.Windows.Forms.Label();
             this.taxes = new System.Windows.Forms.Label();
             this.taxesLabel = new System.Windows.Forms.Label();
+            this.total = new System.Windows.Forms.Label();
+            this.totalLabel = new System.Windows.Forms.Label();
+            this.line2 = new System.Windows.Forms.Label();
+            this.emailLabel = new System.Windows.Forms.Label();
+            this.emailBox = new System.Windows.Forms.TextBox();
+            this.streetBox = new System.Windows.Forms.TextBox();
+            this.streetLabel = new System.Windows.Forms.Label();
+            this.aptBox = new System.Windows.Forms.TextBox();
+            this.aptLabel = new System.Windows.Forms.Label();
+            this.cityBox = new System.Windows.Forms.TextBox();
+            this.cityLabel = new System.Windows.Forms.Label();
+            this.zipBox = new System.Windows.Forms.TextBox();
+            this.zipLabel = new System.Windows.Forms.Label();
+            this.orderBtn = new System.Windows.Forms.Button();
+            this.backBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.graybackground)).BeginInit();
             this.SuspendLayout();
             // 
@@ -218,13 +233,13 @@
             this.price5.TabIndex = 14;
             this.price5.Text = "$5.00";
             // 
-            // label1
+            // line1
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(300, 558);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(471, 2);
-            this.label1.TabIndex = 15;
+            this.line1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.line1.Location = new System.Drawing.Point(300, 558);
+            this.line1.Name = "line1";
+            this.line1.Size = new System.Drawing.Size(471, 2);
+            this.line1.TabIndex = 15;
             // 
             // subtotalLabel
             // 
@@ -258,9 +273,9 @@
             this.taxes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.taxes.Location = new System.Drawing.Point(703, 637);
             this.taxes.Name = "taxes";
-            this.taxes.Size = new System.Drawing.Size(76, 24);
+            this.taxes.Size = new System.Drawing.Size(64, 24);
             this.taxes.TabIndex = 19;
-            this.taxes.Text = "$25.00";
+            this.taxes.Text = "$1.03";
             // 
             // taxesLabel
             // 
@@ -274,18 +289,184 @@
             this.taxesLabel.TabIndex = 18;
             this.taxesLabel.Text = "Taxes";
             // 
+            // total
+            // 
+            this.total.AutoSize = true;
+            this.total.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.total.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.total.Location = new System.Drawing.Point(691, 703);
+            this.total.Name = "total";
+            this.total.Size = new System.Drawing.Size(98, 32);
+            this.total.TabIndex = 21;
+            this.total.Text = "$26.03";
+            // 
+            // totalLabel
+            // 
+            this.totalLabel.AutoSize = true;
+            this.totalLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.totalLabel.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.totalLabel.Location = new System.Drawing.Point(295, 703);
+            this.totalLabel.Name = "totalLabel";
+            this.totalLabel.Size = new System.Drawing.Size(69, 29);
+            this.totalLabel.TabIndex = 20;
+            this.totalLabel.Text = "Total";
+            // 
+            // line2
+            // 
+            this.line2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.line2.Location = new System.Drawing.Point(861, 307);
+            this.line2.Name = "line2";
+            this.line2.Size = new System.Drawing.Size(2, 471);
+            this.line2.TabIndex = 22;
+            // 
+            // emailLabel
+            // 
+            this.emailLabel.AutoSize = true;
+            this.emailLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.emailLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailLabel.Location = new System.Drawing.Point(932, 411);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(57, 22);
+            this.emailLabel.TabIndex = 23;
+            this.emailLabel.Text = "Email";
+            // 
+            // emailBox
+            // 
+            this.emailBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox.Location = new System.Drawing.Point(936, 436);
+            this.emailBox.Name = "emailBox";
+            this.emailBox.Size = new System.Drawing.Size(322, 22);
+            this.emailBox.TabIndex = 24;
+            // 
+            // streetBox
+            // 
+            this.streetBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.streetBox.Location = new System.Drawing.Point(936, 508);
+            this.streetBox.Name = "streetBox";
+            this.streetBox.Size = new System.Drawing.Size(322, 22);
+            this.streetBox.TabIndex = 26;
+            // 
+            // streetLabel
+            // 
+            this.streetLabel.AutoSize = true;
+            this.streetLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.streetLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.streetLabel.Location = new System.Drawing.Point(932, 483);
+            this.streetLabel.Name = "streetLabel";
+            this.streetLabel.Size = new System.Drawing.Size(61, 22);
+            this.streetLabel.TabIndex = 25;
+            this.streetLabel.Text = "Street";
+            // 
+            // aptBox
+            // 
+            this.aptBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aptBox.Location = new System.Drawing.Point(936, 568);
+            this.aptBox.Name = "aptBox";
+            this.aptBox.Size = new System.Drawing.Size(69, 22);
+            this.aptBox.TabIndex = 28;
+            // 
+            // aptLabel
+            // 
+            this.aptLabel.AutoSize = true;
+            this.aptLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.aptLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aptLabel.Location = new System.Drawing.Point(932, 543);
+            this.aptLabel.Name = "aptLabel";
+            this.aptLabel.Size = new System.Drawing.Size(55, 22);
+            this.aptLabel.TabIndex = 27;
+            this.aptLabel.Text = "Apt.#";
+            // 
+            // cityBox
+            // 
+            this.cityBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityBox.Location = new System.Drawing.Point(936, 637);
+            this.cityBox.Name = "cityBox";
+            this.cityBox.Size = new System.Drawing.Size(139, 22);
+            this.cityBox.TabIndex = 30;
+            // 
+            // cityLabel
+            // 
+            this.cityLabel.AutoSize = true;
+            this.cityLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.cityLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityLabel.Location = new System.Drawing.Point(932, 612);
+            this.cityLabel.Name = "cityLabel";
+            this.cityLabel.Size = new System.Drawing.Size(42, 22);
+            this.cityLabel.TabIndex = 29;
+            this.cityLabel.Text = "City";
+            // 
+            // zipBox
+            // 
+            this.zipBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zipBox.Location = new System.Drawing.Point(1119, 637);
+            this.zipBox.Name = "zipBox";
+            this.zipBox.Size = new System.Drawing.Size(139, 22);
+            this.zipBox.TabIndex = 32;
+            // 
+            // zipLabel
+            // 
+            this.zipLabel.AutoSize = true;
+            this.zipLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.zipLabel.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zipLabel.Location = new System.Drawing.Point(1115, 612);
+            this.zipLabel.Name = "zipLabel";
+            this.zipLabel.Size = new System.Drawing.Size(89, 22);
+            this.zipLabel.TabIndex = 31;
+            this.zipLabel.Text = "Zip Code";
+            // 
+            // orderBtn
+            // 
+            this.orderBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
+            this.orderBtn.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderBtn.ForeColor = System.Drawing.Color.White;
+            this.orderBtn.Location = new System.Drawing.Point(1206, 747);
+            this.orderBtn.Name = "orderBtn";
+            this.orderBtn.Size = new System.Drawing.Size(85, 50);
+            this.orderBtn.TabIndex = 33;
+            this.orderBtn.Text = "Order";
+            this.orderBtn.UseVisualStyleBackColor = false;
+            // 
+            // backBtn
+            // 
+            this.backBtn.BackColor = System.Drawing.Color.White;
+            this.backBtn.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
+            this.backBtn.Location = new System.Drawing.Point(1087, 755);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(95, 35);
+            this.backBtn.TabIndex = 34;
+            this.backBtn.Text = "Go Back";
+            this.backBtn.UseVisualStyleBackColor = false;
+            // 
             // checkout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.ClientSize = new System.Drawing.Size(1540, 845);
+            this.Controls.Add(this.backBtn);
+            this.Controls.Add(this.orderBtn);
+            this.Controls.Add(this.zipBox);
+            this.Controls.Add(this.zipLabel);
+            this.Controls.Add(this.cityBox);
+            this.Controls.Add(this.cityLabel);
+            this.Controls.Add(this.aptBox);
+            this.Controls.Add(this.aptLabel);
+            this.Controls.Add(this.streetBox);
+            this.Controls.Add(this.streetLabel);
+            this.Controls.Add(this.emailBox);
+            this.Controls.Add(this.emailLabel);
+            this.Controls.Add(this.line2);
+            this.Controls.Add(this.total);
+            this.Controls.Add(this.totalLabel);
             this.Controls.Add(this.taxes);
             this.Controls.Add(this.taxesLabel);
             this.Controls.Add(this.subtotal);
             this.Controls.Add(this.subtotalLabel);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.line1);
             this.Controls.Add(this.price5);
             this.Controls.Add(this.price4);
             this.Controls.Add(this.price3);
@@ -327,11 +508,26 @@
         private System.Windows.Forms.Label price3;
         private System.Windows.Forms.Label price4;
         private System.Windows.Forms.Label price5;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label line1;
         private System.Windows.Forms.Label subtotalLabel;
         private System.Windows.Forms.Label subtotal;
         private System.Windows.Forms.Label taxes;
         private System.Windows.Forms.Label taxesLabel;
+        private System.Windows.Forms.Label total;
+        private System.Windows.Forms.Label totalLabel;
+        private System.Windows.Forms.Label line2;
+        private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.TextBox emailBox;
+        private System.Windows.Forms.TextBox streetBox;
+        private System.Windows.Forms.Label streetLabel;
+        private System.Windows.Forms.TextBox aptBox;
+        private System.Windows.Forms.Label aptLabel;
+        private System.Windows.Forms.TextBox cityBox;
+        private System.Windows.Forms.Label cityLabel;
+        private System.Windows.Forms.TextBox zipBox;
+        private System.Windows.Forms.Label zipLabel;
+        private System.Windows.Forms.Button orderBtn;
+        private System.Windows.Forms.Button backBtn;
     }
 }
 
