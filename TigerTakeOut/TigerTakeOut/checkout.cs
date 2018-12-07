@@ -17,6 +17,9 @@ namespace TigerTakeOut
             InitializeComponent();
         }
 
+        private void orderBtn_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

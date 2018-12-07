@@ -44,8 +44,8 @@
             this.line1 = new System.Windows.Forms.Label();
             this.subtotalLabel = new System.Windows.Forms.Label();
             this.subtotal = new System.Windows.Forms.Label();
-            this.taxes = new System.Windows.Forms.Label();
-            this.taxesLabel = new System.Windows.Forms.Label();
+            this.fee = new System.Windows.Forms.Label();
+            this.feeLabel = new System.Windows.Forms.Label();
             this.total = new System.Windows.Forms.Label();
             this.totalLabel = new System.Windows.Forms.Label();
             this.line2 = new System.Windows.Forms.Label();
@@ -239,29 +239,29 @@
             this.subtotal.TabIndex = 17;
             this.subtotal.Text = "$25.00";
             // 
-            // taxes
+            // fee
             // 
-            this.taxes.AutoSize = true;
-            this.taxes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
-            this.taxes.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taxes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.taxes.Location = new System.Drawing.Point(703, 637);
-            this.taxes.Name = "taxes";
-            this.taxes.Size = new System.Drawing.Size(64, 24);
-            this.taxes.TabIndex = 19;
-            this.taxes.Text = "$1.03";
+            this.fee.AutoSize = true;
+            this.fee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.fee.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fee.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.fee.Location = new System.Drawing.Point(703, 637);
+            this.fee.Name = "fee";
+            this.fee.Size = new System.Drawing.Size(64, 24);
+            this.fee.TabIndex = 19;
+            this.fee.Text = "$5.99";
             // 
-            // taxesLabel
+            // feeLabel
             // 
-            this.taxesLabel.AutoSize = true;
-            this.taxesLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
-            this.taxesLabel.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taxesLabel.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.taxesLabel.Location = new System.Drawing.Point(296, 637);
-            this.taxesLabel.Name = "taxesLabel";
-            this.taxesLabel.Size = new System.Drawing.Size(65, 24);
-            this.taxesLabel.TabIndex = 18;
-            this.taxesLabel.Text = "Taxes";
+            this.feeLabel.AutoSize = true;
+            this.feeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(214)))));
+            this.feeLabel.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.feeLabel.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.feeLabel.Location = new System.Drawing.Point(296, 637);
+            this.feeLabel.Name = "feeLabel";
+            this.feeLabel.Size = new System.Drawing.Size(130, 24);
+            this.feeLabel.TabIndex = 18;
+            this.feeLabel.Text = "Delivery Fee";
             // 
             // total
             // 
@@ -273,7 +273,7 @@
             this.total.Name = "total";
             this.total.Size = new System.Drawing.Size(98, 32);
             this.total.TabIndex = 21;
-            this.total.Text = "$26.03";
+            this.total.Text = "$30.99";
             // 
             // totalLabel
             // 
@@ -401,6 +401,7 @@
             this.orderBtn.TabIndex = 33;
             this.orderBtn.Text = "Order";
             this.orderBtn.UseVisualStyleBackColor = false;
+            this.orderBtn.Click += new System.EventHandler(this.orderBtn_Click);
             // 
             // backBtn
             // 
@@ -436,8 +437,8 @@
             this.Controls.Add(this.line2);
             this.Controls.Add(this.total);
             this.Controls.Add(this.totalLabel);
-            this.Controls.Add(this.taxes);
-            this.Controls.Add(this.taxesLabel);
+            this.Controls.Add(this.fee);
+            this.Controls.Add(this.feeLabel);
             this.Controls.Add(this.subtotal);
             this.Controls.Add(this.subtotalLabel);
             this.Controls.Add(this.line1);
@@ -481,8 +482,8 @@
         private System.Windows.Forms.Label line1;
         private System.Windows.Forms.Label subtotalLabel;
         private System.Windows.Forms.Label subtotal;
-        private System.Windows.Forms.Label taxes;
-        private System.Windows.Forms.Label taxesLabel;
+        private System.Windows.Forms.Label fee;
+        private System.Windows.Forms.Label feeLabel;
         private System.Windows.Forms.Label total;
         private System.Windows.Forms.Label totalLabel;
         private System.Windows.Forms.Label line2;
