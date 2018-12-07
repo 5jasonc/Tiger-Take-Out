@@ -30,8 +30,6 @@
         {
             this.shoppingCartLabel = new System.Windows.Forms.Label();
             this.graybackground = new System.Windows.Forms.PictureBox();
-            this.userLabel = new System.Windows.Forms.Label();
-            this.cartItemsLabel = new System.Windows.Forms.Label();
             this.cartTotalLabel = new System.Windows.Forms.Label();
             this.item1 = new System.Windows.Forms.Label();
             this.item2 = new System.Windows.Forms.Label();
@@ -86,30 +84,6 @@
             this.graybackground.Size = new System.Drawing.Size(1090, 550);
             this.graybackground.TabIndex = 1;
             this.graybackground.TabStop = false;
-            // 
-            // userLabel
-            // 
-            this.userLabel.AutoSize = true;
-            this.userLabel.BackColor = System.Drawing.Color.Transparent;
-            this.userLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userLabel.ForeColor = System.Drawing.Color.White;
-            this.userLabel.Location = new System.Drawing.Point(1368, 143);
-            this.userLabel.Name = "userLabel";
-            this.userLabel.Size = new System.Drawing.Size(62, 18);
-            this.userLabel.TabIndex = 2;
-            this.userLabel.Text = "jxh9922";
-            // 
-            // cartItemsLabel
-            // 
-            this.cartItemsLabel.AutoSize = true;
-            this.cartItemsLabel.BackColor = System.Drawing.Color.Transparent;
-            this.cartItemsLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartItemsLabel.ForeColor = System.Drawing.Color.White;
-            this.cartItemsLabel.Location = new System.Drawing.Point(1436, 143);
-            this.cartItemsLabel.Name = "cartItemsLabel";
-            this.cartItemsLabel.Size = new System.Drawing.Size(110, 18);
-            this.cartItemsLabel.TabIndex = 3;
-            this.cartItemsLabel.Text = "|   Items in cart:";
             // 
             // cartTotalLabel
             // 
@@ -478,8 +452,6 @@
             this.Controls.Add(this.item2);
             this.Controls.Add(this.item1);
             this.Controls.Add(this.cartTotalLabel);
-            this.Controls.Add(this.cartItemsLabel);
-            this.Controls.Add(this.userLabel);
             this.Controls.Add(this.graybackground);
             this.Controls.Add(this.shoppingCartLabel);
             this.Name = "checkout";
@@ -495,8 +467,6 @@
 
         private System.Windows.Forms.Label shoppingCartLabel;
         private System.Windows.Forms.PictureBox graybackground;
-        private System.Windows.Forms.Label userLabel;
-        private System.Windows.Forms.Label cartItemsLabel;
         private System.Windows.Forms.Label cartTotalLabel;
         private System.Windows.Forms.Label item1;
         private System.Windows.Forms.Label item2;
