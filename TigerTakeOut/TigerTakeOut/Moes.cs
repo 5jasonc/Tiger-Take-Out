@@ -55,16 +55,16 @@ namespace TigerTakeOut
 
         private void burrito3_Click(object sender, EventArgs e)
         {
-            string foodItem3 = this.Text;
-            foodItem3.Split('\n');
+            string foodItem2 = this.Text;
+            foodItem2.Split('\n');
 
-            if (foodItem3.Length == 2)
+            if (foodItem2.Length == 2)
             {
-                string foodName3 = char.ToString(foodItem3[0]);
-                double foodPrice3 = Convert.ToDouble(foodItem3[1]);
+                string foodName2 = char.ToString(foodItem2[0]);
+                double foodPrice2 = Convert.ToDouble(foodItem2[1]);
 
-                names.Add(foodName3);
-                prices.Add(foodPrice3);
+                names.Add(foodName2);
+                prices.Add(foodPrice2);
 
             }
         }
@@ -87,16 +87,16 @@ namespace TigerTakeOut
 
         private void dilla1_Click(object sender, EventArgs e)
         {
-            string foodItem5 = this.Text;
-            foodItem5.Split('\n');
+            string foodItem4 = this.Text;
+            foodItem4.Split('\n');
 
-            if (foodItem5.Length == 2)
+            if (foodItem4.Length == 2)
             {
-                string foodName5 = char.ToString(foodItem5[0]);
-                double foodPrice5 = Convert.ToDouble(foodItem5[1]);
+                string foodName4 = char.ToString(foodItem4[0]);
+                double foodPrice4 = Convert.ToDouble(foodItem4[1]);
 
-                names.Add(foodName5);
-                prices.Add(foodPrice5);
+                names.Add(foodName4);
+                prices.Add(foodPrice4);
 
             }
         }
@@ -151,16 +151,16 @@ namespace TigerTakeOut
 
         private void side3_Click(object sender, EventArgs e)
         {
-            string foodItem9 = this.Text;
-            foodItem9.Split('\n');
+            string foodItem8 = this.Text;
+            foodItem8.Split('\n');
 
-            if (foodItem9.Length == 2)
+            if (foodItem8.Length == 2)
             {
-                string foodName9 = char.ToString(foodItem9[0]);
-                double foodPrice9 = Convert.ToDouble(foodItem9[1]);
+                string foodName8 = char.ToString(foodItem8[0]);
+                double foodPrice8 = Convert.ToDouble(foodItem8[1]);
 
-                names.Add(foodName9);
-                prices.Add(foodPrice9);
+                names.Add(foodName8);
+                prices.Add(foodPrice8);
 
             }
         }
@@ -215,7 +215,8 @@ namespace TigerTakeOut
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Checkout checkout = new Checkout(names, prices);
+            checkout.ShowDialog();
         }
     }
 }

@@ -28,43 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.dess2 = new System.Windows.Forms.Button();
+            this.dess1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.side2 = new System.Windows.Forms.Button();
+            this.side1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.salad1 = new System.Windows.Forms.Button();
+            this.salad2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pizza4 = new System.Windows.Forms.Button();
+            this.pizza3 = new System.Windows.Forms.Button();
+            this.pizza2 = new System.Windows.Forms.Button();
+            this.pizza1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button11
+            // dess2
             // 
-            this.button11.Location = new System.Drawing.Point(434, 721);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(233, 84);
-            this.button11.TabIndex = 31;
-            this.button11.Text = "Chocolate Chip Cookie with Sea Salt\r\n$2.25";
-            this.button11.UseVisualStyleBackColor = true;
+            this.dess2.Location = new System.Drawing.Point(434, 721);
+            this.dess2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.dess2.Name = "dess2";
+            this.dess2.Size = new System.Drawing.Size(233, 84);
+            this.dess2.TabIndex = 31;
+            this.dess2.Text = "Chocolate Chip Cookie with Sea Salt\r\n2.25";
+            this.dess2.UseVisualStyleBackColor = true;
+            this.dess2.Click += new System.EventHandler(this.dess2_Click);
             // 
-            // button12
+            // dess1
             // 
-            this.button12.Location = new System.Drawing.Point(181, 721);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(233, 84);
-            this.button12.TabIndex = 30;
-            this.button12.Text = "S\'More Pie\r\n$2.25";
-            this.button12.UseVisualStyleBackColor = true;
+            this.dess1.Location = new System.Drawing.Point(181, 721);
+            this.dess1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.dess1.Name = "dess1";
+            this.dess1.Size = new System.Drawing.Size(233, 84);
+            this.dess1.TabIndex = 30;
+            this.dess1.Text = "S\'More Pie\r\n2.25";
+            this.dess1.UseVisualStyleBackColor = true;
+            this.dess1.Click += new System.EventHandler(this.dess1_Click);
             // 
             // label5
             // 
@@ -77,25 +79,27 @@
             this.label5.TabIndex = 29;
             this.label5.Text = "Desserts";
             // 
-            // button8
+            // side2
             // 
-            this.button8.Location = new System.Drawing.Point(956, 545);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(233, 84);
-            this.button8.TabIndex = 28;
-            this.button8.Text = "Dough Knots (4)\r\n$2.95";
-            this.button8.UseVisualStyleBackColor = true;
+            this.side2.Location = new System.Drawing.Point(956, 545);
+            this.side2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side2.Name = "side2";
+            this.side2.Size = new System.Drawing.Size(233, 84);
+            this.side2.TabIndex = 28;
+            this.side2.Text = "Dough Knots (4)\r\n2.95";
+            this.side2.UseVisualStyleBackColor = true;
+            this.side2.Click += new System.EventHandler(this.side2_Click);
             // 
-            // button7
+            // side1
             // 
-            this.button7.Location = new System.Drawing.Point(708, 545);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(233, 84);
-            this.button7.TabIndex = 27;
-            this.button7.Text = "Dough Knots (2)\r\n$1.95";
-            this.button7.UseVisualStyleBackColor = true;
+            this.side1.Location = new System.Drawing.Point(708, 545);
+            this.side1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.side1.Name = "side1";
+            this.side1.Size = new System.Drawing.Size(233, 84);
+            this.side1.TabIndex = 27;
+            this.side1.Text = "Dough Knots (2)\r\n1.95";
+            this.side1.UseVisualStyleBackColor = true;
+            this.side1.Click += new System.EventHandler(this.side1_Click);
             // 
             // label4
             // 
@@ -108,25 +112,27 @@
             this.label4.TabIndex = 26;
             this.label4.Text = "Sides";
             // 
-            // button6
+            // salad1
             // 
-            this.button6.Location = new System.Drawing.Point(181, 545);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(233, 84);
-            this.button6.TabIndex = 25;
-            this.button6.Text = "Simple Salad - side\r\n$3.95";
-            this.button6.UseVisualStyleBackColor = true;
+            this.salad1.Location = new System.Drawing.Point(181, 545);
+            this.salad1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.salad1.Name = "salad1";
+            this.salad1.Size = new System.Drawing.Size(233, 84);
+            this.salad1.TabIndex = 25;
+            this.salad1.Text = "Simple Salad - side\r\n3.95";
+            this.salad1.UseVisualStyleBackColor = true;
+            this.salad1.Click += new System.EventHandler(this.salad1_Click);
             // 
-            // button5
+            // salad2
             // 
-            this.button5.Location = new System.Drawing.Point(434, 545);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(233, 84);
-            this.button5.TabIndex = 24;
-            this.button5.Text = "Simple Salad - entree\r\n$6.95";
-            this.button5.UseVisualStyleBackColor = true;
+            this.salad2.Location = new System.Drawing.Point(434, 545);
+            this.salad2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.salad2.Name = "salad2";
+            this.salad2.Size = new System.Drawing.Size(233, 84);
+            this.salad2.TabIndex = 24;
+            this.salad2.Text = "Simple Salad - entree\r\n6.95";
+            this.salad2.UseVisualStyleBackColor = true;
+            this.salad2.Click += new System.EventHandler(this.salad2_Click);
             // 
             // label3
             // 
@@ -139,45 +145,49 @@
             this.label3.TabIndex = 23;
             this.label3.Text = "Salads";
             // 
-            // button4
+            // pizza4
             // 
-            this.button4.Location = new System.Drawing.Point(956, 360);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(233, 84);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Veg Out\r\n$8.65";
-            this.button4.UseVisualStyleBackColor = true;
+            this.pizza4.Location = new System.Drawing.Point(956, 360);
+            this.pizza4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pizza4.Name = "pizza4";
+            this.pizza4.Size = new System.Drawing.Size(233, 84);
+            this.pizza4.TabIndex = 22;
+            this.pizza4.Text = "Veg Out\r\n8.65";
+            this.pizza4.UseVisualStyleBackColor = true;
+            this.pizza4.Click += new System.EventHandler(this.pizza4_Click);
             // 
-            // button3
+            // pizza3
             // 
-            this.button3.Location = new System.Drawing.Point(708, 360);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(233, 84);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "BBQ Chkn\r\n$8.65";
-            this.button3.UseVisualStyleBackColor = true;
+            this.pizza3.Location = new System.Drawing.Point(708, 360);
+            this.pizza3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pizza3.Name = "pizza3";
+            this.pizza3.Size = new System.Drawing.Size(233, 84);
+            this.pizza3.TabIndex = 21;
+            this.pizza3.Text = "BBQ Chkn\r\n8.65";
+            this.pizza3.UseVisualStyleBackColor = true;
+            this.pizza3.Click += new System.EventHandler(this.pizza3_Click);
             // 
-            // button2
+            // pizza2
             // 
-            this.button2.Location = new System.Drawing.Point(434, 360);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(233, 84);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "Meat Eater\r\n$8.65";
-            this.button2.UseVisualStyleBackColor = true;
+            this.pizza2.Location = new System.Drawing.Point(434, 360);
+            this.pizza2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pizza2.Name = "pizza2";
+            this.pizza2.Size = new System.Drawing.Size(233, 84);
+            this.pizza2.TabIndex = 20;
+            this.pizza2.Text = "Meat Eater\r\n8.65";
+            this.pizza2.UseVisualStyleBackColor = true;
+            this.pizza2.Click += new System.EventHandler(this.pizza2_Click);
             // 
-            // button1
+            // pizza1
             // 
-            this.button1.Location = new System.Drawing.Point(181, 360);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(233, 84);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Hot Link\r\n$8.65";
-            this.button1.UseVisualStyleBackColor = true;
+            this.pizza1.Location = new System.Drawing.Point(181, 360);
+            this.pizza1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.pizza1.Name = "pizza1";
+            this.pizza1.Size = new System.Drawing.Size(233, 84);
+            this.pizza1.TabIndex = 19;
+            this.pizza1.Text = "Hot Link\r\n8.65";
+            this.pizza1.UseVisualStyleBackColor = true;
+            this.pizza1.Click += new System.EventHandler(this.pizza1_Click);
             // 
             // label2
             // 
@@ -212,6 +222,7 @@
             this.button9.TabIndex = 56;
             this.button9.Text = "Checkout";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // Blaze
             // 
@@ -221,19 +232,19 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.dess2);
+            this.Controls.Add(this.dess1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.side2);
+            this.Controls.Add(this.side1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.salad1);
+            this.Controls.Add(this.salad2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pizza4);
+            this.Controls.Add(this.pizza3);
+            this.Controls.Add(this.pizza2);
+            this.Controls.Add(this.pizza1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Blaze";
@@ -244,19 +255,19 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button dess2;
+        private System.Windows.Forms.Button dess1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button side2;
+        private System.Windows.Forms.Button side1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button salad1;
+        private System.Windows.Forms.Button salad2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button pizza4;
+        private System.Windows.Forms.Button pizza3;
+        private System.Windows.Forms.Button pizza2;
+        private System.Windows.Forms.Button pizza1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button9;

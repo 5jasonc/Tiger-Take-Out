@@ -16,5 +16,15 @@ namespace TigerTakeOut
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int select = comboBox1.SelectedIndex;
+
+            if(select == 1)
+            {
+
+            }
+        }
     }
 }
