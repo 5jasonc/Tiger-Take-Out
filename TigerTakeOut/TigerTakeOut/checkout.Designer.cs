@@ -1,6 +1,6 @@
 ﻿namespace TigerTakeOut
 {
-    partial class checkout
+    partial class Checkout
     {
         /// <summary>
         /// Required designer variable.

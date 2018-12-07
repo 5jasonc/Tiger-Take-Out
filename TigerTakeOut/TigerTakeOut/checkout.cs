@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TigerTakeOut
 {
-    public partial class checkout : Form
+    public partial class Checkout : Form
     {
-        public checkout()
+        public Checkout()
         {
             InitializeComponent();
         }
