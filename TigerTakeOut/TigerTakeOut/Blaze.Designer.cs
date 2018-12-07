@@ -43,6 +43,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button11
@@ -200,6 +201,18 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Blaze Pizza";
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(1039, 210);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(150, 56);
+            this.button9.TabIndex = 56;
+            this.button9.Text = "Checkout";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
             // Blaze
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,6 +220,7 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.label5);
@@ -245,5 +259,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button9;
     }
 }

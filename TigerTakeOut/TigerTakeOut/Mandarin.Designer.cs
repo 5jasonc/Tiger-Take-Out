@@ -46,6 +46,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -232,6 +233,18 @@
             this.label6.Size = new System.Drawing.Size(3, 260);
             this.label6.TabIndex = 53;
             // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(1048, 199);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(150, 56);
+            this.button13.TabIndex = 56;
+            this.button13.Text = "Checkout";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
             // Mandarin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,6 +253,7 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
@@ -285,5 +299,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button13;
     }
 }

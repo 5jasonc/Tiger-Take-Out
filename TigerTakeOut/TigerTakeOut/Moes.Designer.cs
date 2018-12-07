@@ -46,6 +46,7 @@
             this.taco1 = new System.Windows.Forms.Button();
             this.burrito4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +78,7 @@
             this.burrito1.Name = "burrito1";
             this.burrito1.Size = new System.Drawing.Size(233, 84);
             this.burrito1.TabIndex = 2;
-            this.burrito1.Text = "Homewrecker Burrito\r\n$8.69";
+            this.burrito1.Text = "Homewrecker Burrito\r\n8.69";
             this.burrito1.UseVisualStyleBackColor = true;
             this.burrito1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -88,7 +89,7 @@
             this.burrito2.Name = "burrito2";
             this.burrito2.Size = new System.Drawing.Size(233, 84);
             this.burrito2.TabIndex = 3;
-            this.burrito2.Text = "Homewrecker Jr. Burrito\r\n$8.19";
+            this.burrito2.Text = "Homewrecker Jr. Burrito\r\n8.19";
             this.burrito2.UseVisualStyleBackColor = true;
             this.burrito2.Click += new System.EventHandler(this.burrito2_Click);
             // 
@@ -99,7 +100,7 @@
             this.burrito3.Name = "burrito3";
             this.burrito3.Size = new System.Drawing.Size(233, 84);
             this.burrito3.TabIndex = 4;
-            this.burrito3.Text = "Joey Bag of Donuts Burrito\r\n$7.79";
+            this.burrito3.Text = "Joey Bag of Donuts Burrito\r\n7.79";
             this.burrito3.UseVisualStyleBackColor = true;
             this.burrito3.Click += new System.EventHandler(this.burrito3_Click);
             // 
@@ -121,7 +122,7 @@
             this.dila2.Name = "dila2";
             this.dila2.Size = new System.Drawing.Size(233, 84);
             this.dila2.TabIndex = 7;
-            this.dila2.Text = "First Rule of Chicken Club Quesadilla\r\n$8.99";
+            this.dila2.Text = "First Rule of Chicken Club Quesadilla\r\n8.99";
             this.dila2.UseVisualStyleBackColor = true;
             this.dila2.Click += new System.EventHandler(this.dila2_Click);
             // 
@@ -132,7 +133,7 @@
             this.dilla1.Name = "dilla1";
             this.dilla1.Size = new System.Drawing.Size(233, 84);
             this.dilla1.TabIndex = 8;
-            this.dilla1.Text = "John Coctostan Quesadilla\r\n$7.89";
+            this.dilla1.Text = "John Coctostan Quesadilla\r\n7.89";
             this.dilla1.UseVisualStyleBackColor = true;
             this.dilla1.Click += new System.EventHandler(this.dilla1_Click);
             // 
@@ -154,7 +155,7 @@
             this.side1.Name = "side1";
             this.side1.Size = new System.Drawing.Size(233, 84);
             this.side1.TabIndex = 10;
-            this.side1.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side1.Text = "Homewrecker Burrito\r\n8.69";
             this.side1.UseVisualStyleBackColor = true;
             this.side1.Click += new System.EventHandler(this.side1_Click);
             // 
@@ -165,7 +166,7 @@
             this.side2.Name = "side2";
             this.side2.Size = new System.Drawing.Size(233, 84);
             this.side2.TabIndex = 11;
-            this.side2.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side2.Text = "Homewrecker Burrito\r\n8.69";
             this.side2.UseVisualStyleBackColor = true;
             this.side2.Click += new System.EventHandler(this.side2_Click);
             // 
@@ -187,7 +188,7 @@
             this.side4.Name = "side4";
             this.side4.Size = new System.Drawing.Size(233, 84);
             this.side4.TabIndex = 16;
-            this.side4.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side4.Text = "Homewrecker Burrito\r\n8.69";
             this.side4.UseVisualStyleBackColor = true;
             this.side4.Click += new System.EventHandler(this.side4_Click);
             // 
@@ -198,7 +199,7 @@
             this.side3.Name = "side3";
             this.side3.Size = new System.Drawing.Size(233, 84);
             this.side3.TabIndex = 15;
-            this.side3.Text = "Homewrecker Burrito\r\n$8.69";
+            this.side3.Text = "Homewrecker Burrito\r\n8.69";
             this.side3.UseVisualStyleBackColor = true;
             this.side3.Click += new System.EventHandler(this.side3_Click);
             // 
@@ -209,7 +210,7 @@
             this.taco2.Name = "taco2";
             this.taco2.Size = new System.Drawing.Size(233, 84);
             this.taco2.TabIndex = 14;
-            this.taco2.Text = "2 Three Amigos Tacos\r\n$7.99";
+            this.taco2.Text = "2 Three Amigos Tacos\r\n7.99";
             this.taco2.UseVisualStyleBackColor = true;
             this.taco2.Click += new System.EventHandler(this.taco2_Click);
             // 
@@ -220,7 +221,7 @@
             this.taco1.Name = "taco1";
             this.taco1.Size = new System.Drawing.Size(233, 84);
             this.taco1.TabIndex = 13;
-            this.taco1.Text = "3 Three Amigos Tacos\r\n$9.99";
+            this.taco1.Text = "3 Three Amigos Tacos\r\n9.99";
             this.taco1.UseVisualStyleBackColor = true;
             this.taco1.Click += new System.EventHandler(this.taco1_Click);
             // 
@@ -231,7 +232,7 @@
             this.burrito4.Name = "burrito4";
             this.burrito4.Size = new System.Drawing.Size(233, 84);
             this.burrito4.TabIndex = 5;
-            this.burrito4.Text = "Joey Jr. Burrito\r\n$7.29";
+            this.burrito4.Text = "Joey Jr. Burrito\r\n7.29";
             this.burrito4.UseVisualStyleBackColor = true;
             this.burrito4.Click += new System.EventHandler(this.burrito4_Click);
             // 
@@ -244,6 +245,19 @@
             this.label6.Size = new System.Drawing.Size(3, 260);
             this.label6.TabIndex = 54;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(1039, 208);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 56);
+            this.button1.TabIndex = 55;
+            this.button1.Text = "Checkout";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Moes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -251,6 +265,7 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.side4);
             this.Controls.Add(this.side3);
@@ -298,5 +313,6 @@
         private System.Windows.Forms.Button taco1;
         private System.Windows.Forms.Button burrito4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }

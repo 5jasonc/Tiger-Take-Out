@@ -31,21 +31,22 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.platter1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.potat1 = new System.Windows.Forms.Button();
+            this.potat2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.sand4 = new System.Windows.Forms.Button();
+            this.sand3 = new System.Windows.Forms.Button();
+            this.sand2 = new System.Windows.Forms.Button();
+            this.sand1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button9
@@ -78,15 +79,15 @@
             this.button11.Text = "Round Up - 3 meats\r\n$14.99";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // platter1
             // 
-            this.button12.Location = new System.Drawing.Point(183, 713);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(233, 84);
-            this.button12.TabIndex = 48;
-            this.button12.Text = "Cattle Drive - 2 meats\r\n$13.99";
-            this.button12.UseVisualStyleBackColor = true;
+            this.platter1.Location = new System.Drawing.Point(183, 713);
+            this.platter1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.platter1.Name = "platter1";
+            this.platter1.Size = new System.Drawing.Size(233, 84);
+            this.platter1.TabIndex = 48;
+            this.platter1.Text = "Cattle Drive - 2 meats\r\n13.99";
+            this.platter1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -130,25 +131,25 @@
             this.label4.TabIndex = 44;
             this.label4.Text = "Sides";
             // 
-            // button6
+            // potat1
             // 
-            this.button6.Location = new System.Drawing.Point(183, 537);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(233, 84);
-            this.button6.TabIndex = 43;
-            this.button6.Text = "Famous Outlaw Potato\r\n$8.49";
-            this.button6.UseVisualStyleBackColor = true;
+            this.potat1.Location = new System.Drawing.Point(183, 537);
+            this.potat1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.potat1.Name = "potat1";
+            this.potat1.Size = new System.Drawing.Size(233, 84);
+            this.potat1.TabIndex = 43;
+            this.potat1.Text = "Famous Outlaw Potato\r\n8.49";
+            this.potat1.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // potat2
             // 
-            this.button5.Location = new System.Drawing.Point(436, 537);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(233, 84);
-            this.button5.TabIndex = 42;
-            this.button5.Text = "Armadillo Plate\r\n$30.19";
-            this.button5.UseVisualStyleBackColor = true;
+            this.potat2.Location = new System.Drawing.Point(436, 537);
+            this.potat2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.potat2.Name = "potat2";
+            this.potat2.Size = new System.Drawing.Size(233, 84);
+            this.potat2.TabIndex = 42;
+            this.potat2.Text = "Armadillo Plate\r\n30.19";
+            this.potat2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -161,45 +162,45 @@
             this.label3.TabIndex = 41;
             this.label3.Text = "Texas Sized Baked Potatoes";
             // 
-            // button4
+            // sand4
             // 
-            this.button4.Location = new System.Drawing.Point(958, 352);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(233, 84);
-            this.button4.TabIndex = 40;
-            this.button4.Text = "Spurred Beef Brisket\r\n$7.49";
-            this.button4.UseVisualStyleBackColor = true;
+            this.sand4.Location = new System.Drawing.Point(958, 352);
+            this.sand4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.sand4.Name = "sand4";
+            this.sand4.Size = new System.Drawing.Size(233, 84);
+            this.sand4.TabIndex = 40;
+            this.sand4.Text = "Spurred Beef Brisket\r\n7.49";
+            this.sand4.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // sand3
             // 
-            this.button3.Location = new System.Drawing.Point(710, 352);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(233, 84);
-            this.button3.TabIndex = 39;
-            this.button3.Text = "Fresh Angus Burger\r\n$5.99";
-            this.button3.UseVisualStyleBackColor = true;
+            this.sand3.Location = new System.Drawing.Point(710, 352);
+            this.sand3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.sand3.Name = "sand3";
+            this.sand3.Size = new System.Drawing.Size(233, 84);
+            this.sand3.TabIndex = 39;
+            this.sand3.Text = "Fresh Angus Burger\r\n5.99";
+            this.sand3.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // sand2
             // 
-            this.button2.Location = new System.Drawing.Point(436, 352);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(233, 84);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Applewood Smoke BLT\r\n$5.49";
-            this.button2.UseVisualStyleBackColor = true;
+            this.sand2.Location = new System.Drawing.Point(436, 352);
+            this.sand2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.sand2.Name = "sand2";
+            this.sand2.Size = new System.Drawing.Size(233, 84);
+            this.sand2.TabIndex = 38;
+            this.sand2.Text = "Applewood Smoke BLT\r\n5.49";
+            this.sand2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // sand1
             // 
-            this.button1.Location = new System.Drawing.Point(183, 352);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(233, 84);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "Rodeo Pulled Pork\r\n$5.19";
-            this.button1.UseVisualStyleBackColor = true;
+            this.sand1.Location = new System.Drawing.Point(183, 352);
+            this.sand1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.sand1.Name = "sand1";
+            this.sand1.Size = new System.Drawing.Size(233, 84);
+            this.sand1.TabIndex = 37;
+            this.sand1.Text = "Rodeo Pulled Pork\r\n5.19";
+            this.sand1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -232,6 +233,18 @@
             this.label6.Size = new System.Drawing.Size(3, 260);
             this.label6.TabIndex = 52;
             // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(1041, 202);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(150, 56);
+            this.button13.TabIndex = 56;
+            this.button13.Text = "Checkout";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
             // Texas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,22 +252,23 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.platter1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.potat1);
+            this.Controls.Add(this.potat2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.sand4);
+            this.Controls.Add(this.sand3);
+            this.Controls.Add(this.sand2);
+            this.Controls.Add(this.sand1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Texas";
@@ -268,20 +282,21 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button platter1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button potat1;
+        private System.Windows.Forms.Button potat2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button sand4;
+        private System.Windows.Forms.Button sand3;
+        private System.Windows.Forms.Button sand2;
+        private System.Windows.Forms.Button sand1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button13;
     }
 }
