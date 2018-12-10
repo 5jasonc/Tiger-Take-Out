@@ -69,7 +69,7 @@
             this.cancelOrderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(60)))), ((int)(((byte)(49)))));
             this.cancelOrderButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelOrderButton.ForeColor = System.Drawing.Color.White;
-            this.cancelOrderButton.Location = new System.Drawing.Point(666, 480);
+            this.cancelOrderButton.Location = new System.Drawing.Point(617, 475);
             this.cancelOrderButton.Margin = new System.Windows.Forms.Padding(2);
             this.cancelOrderButton.Name = "cancelOrderButton";
             this.cancelOrderButton.Size = new System.Drawing.Size(128, 37);
@@ -98,7 +98,7 @@
             this.orderProgress.Margin = new System.Windows.Forms.Padding(2);
             this.orderProgress.Maximum = 500;
             this.orderProgress.Name = "orderProgress";
-            this.orderProgress.Size = new System.Drawing.Size(731, 28);
+            this.orderProgress.Size = new System.Drawing.Size(682, 28);
             this.orderProgress.Step = 5;
             this.orderProgress.TabIndex = 3;
             // 
@@ -119,7 +119,7 @@
             this.orderIssueLabel.AutoSize = true;
             this.orderIssueLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderIssueLabel.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderIssueLabel.Location = new System.Drawing.Point(712, 433);
+            this.orderIssueLabel.Location = new System.Drawing.Point(663, 428);
             this.orderIssueLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.orderIssueLabel.Name = "orderIssueLabel";
             this.orderIssueLabel.Size = new System.Drawing.Size(82, 14);
@@ -131,7 +131,7 @@
             this.complaintNumberLabel.AutoSize = true;
             this.complaintNumberLabel.BackColor = System.Drawing.Color.Transparent;
             this.complaintNumberLabel.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.complaintNumberLabel.Location = new System.Drawing.Point(712, 447);
+            this.complaintNumberLabel.Location = new System.Drawing.Point(663, 442);
             this.complaintNumberLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.complaintNumberLabel.Name = "complaintNumberLabel";
             this.complaintNumberLabel.Size = new System.Drawing.Size(82, 14);
@@ -143,7 +143,7 @@
             this.orderSummaryLabel.AutoSize = true;
             this.orderSummaryLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderSummaryLabel.Font = new System.Drawing.Font("Georgia", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderSummaryLabel.Location = new System.Drawing.Point(951, 354);
+            this.orderSummaryLabel.Location = new System.Drawing.Point(819, 302);
             this.orderSummaryLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.orderSummaryLabel.Name = "orderSummaryLabel";
             this.orderSummaryLabel.Size = new System.Drawing.Size(225, 29);
@@ -155,7 +155,7 @@
             this.addressLabel.AutoSize = true;
             this.addressLabel.BackColor = System.Drawing.Color.Transparent;
             this.addressLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressLabel.Location = new System.Drawing.Point(953, 429);
+            this.addressLabel.Location = new System.Drawing.Point(821, 377);
             this.addressLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.addressLabel.Name = "addressLabel";
             this.addressLabel.Size = new System.Drawing.Size(216, 18);
@@ -167,7 +167,7 @@
             this.studentIDLabel.AutoSize = true;
             this.studentIDLabel.BackColor = System.Drawing.Color.Transparent;
             this.studentIDLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentIDLabel.Location = new System.Drawing.Point(953, 395);
+            this.studentIDLabel.Location = new System.Drawing.Point(821, 343);
             this.studentIDLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.studentIDLabel.Name = "studentIDLabel";
             this.studentIDLabel.Size = new System.Drawing.Size(169, 18);
@@ -179,7 +179,7 @@
             this.phoneNumberLabel.AutoSize = true;
             this.phoneNumberLabel.BackColor = System.Drawing.Color.Transparent;
             this.phoneNumberLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberLabel.Location = new System.Drawing.Point(953, 464);
+            this.phoneNumberLabel.Location = new System.Drawing.Point(821, 412);
             this.phoneNumberLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.phoneNumberLabel.Name = "phoneNumberLabel";
             this.phoneNumberLabel.Size = new System.Drawing.Size(229, 18);
@@ -191,7 +191,7 @@
             this.orderReceiptLabel.AutoSize = true;
             this.orderReceiptLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderReceiptLabel.Font = new System.Drawing.Font("Georgia", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderReceiptLabel.Location = new System.Drawing.Point(1289, 354);
+            this.orderReceiptLabel.Location = new System.Drawing.Point(1162, 302);
             this.orderReceiptLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.orderReceiptLabel.Name = "orderReceiptLabel";
             this.orderReceiptLabel.Size = new System.Drawing.Size(172, 29);
@@ -203,7 +203,7 @@
             this.itemOneLabel.AutoSize = true;
             this.itemOneLabel.BackColor = System.Drawing.Color.Transparent;
             this.itemOneLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemOneLabel.Location = new System.Drawing.Point(1291, 395);
+            this.itemOneLabel.Location = new System.Drawing.Point(1164, 343);
             this.itemOneLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.itemOneLabel.Name = "itemOneLabel";
             this.itemOneLabel.Size = new System.Drawing.Size(205, 18);
@@ -215,7 +215,7 @@
             this.itemTwoLabel.AutoSize = true;
             this.itemTwoLabel.BackColor = System.Drawing.Color.Transparent;
             this.itemTwoLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemTwoLabel.Location = new System.Drawing.Point(1291, 429);
+            this.itemTwoLabel.Location = new System.Drawing.Point(1164, 377);
             this.itemTwoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.itemTwoLabel.Name = "itemTwoLabel";
             this.itemTwoLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -228,7 +228,7 @@
             this.orderMethodLabel.AutoSize = true;
             this.orderMethodLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderMethodLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderMethodLabel.Location = new System.Drawing.Point(953, 498);
+            this.orderMethodLabel.Location = new System.Drawing.Point(821, 446);
             this.orderMethodLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.orderMethodLabel.Name = "orderMethodLabel";
             this.orderMethodLabel.Size = new System.Drawing.Size(210, 18);
@@ -240,7 +240,7 @@
             this.orderTotalLabel.AutoSize = true;
             this.orderTotalLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderTotalLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderTotalLabel.Location = new System.Drawing.Point(1290, 498);
+            this.orderTotalLabel.Location = new System.Drawing.Point(1163, 446);
             this.orderTotalLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.orderTotalLabel.Name = "orderTotalLabel";
             this.orderTotalLabel.Size = new System.Drawing.Size(105, 19);
@@ -252,7 +252,7 @@
             this.deliveryFeeLabel.AutoSize = true;
             this.deliveryFeeLabel.BackColor = System.Drawing.Color.Transparent;
             this.deliveryFeeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deliveryFeeLabel.Location = new System.Drawing.Point(1290, 464);
+            this.deliveryFeeLabel.Location = new System.Drawing.Point(1163, 412);
             this.deliveryFeeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.deliveryFeeLabel.Name = "deliveryFeeLabel";
             this.deliveryFeeLabel.Size = new System.Drawing.Size(153, 19);
