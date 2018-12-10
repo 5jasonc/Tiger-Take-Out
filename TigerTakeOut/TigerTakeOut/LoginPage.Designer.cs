@@ -98,6 +98,8 @@
             this.passText.Location = new System.Drawing.Point(696, 512);
             this.passText.Name = "passText";
             this.passText.Size = new System.Drawing.Size(421, 20);
+            this.passText.Text = "";
+            this.passText.PasswordChar = '*';
             this.passText.TabIndex = 5;
             // 
             // LoginPage

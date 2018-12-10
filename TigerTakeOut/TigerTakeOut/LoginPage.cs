@@ -20,10 +20,16 @@ namespace TigerTakeOut
 
         private void passlabel_Click(object sender, EventArgs e)
         {
-            Selection selection = new Selection();
-            selection.ShowDialog();
+            int passwordlength = this.passText.TextLength;
+            int usernamelength = this.userText.TextLength;
 
-            this.Hide();
+            if (passwordlength > 0 && usernamelength > 0)
+            {
+                Selection selection = new Selection();
+                selection.ShowDialog();
+
+                this.Hide();
+            }
         }
        
     }
