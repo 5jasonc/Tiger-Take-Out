@@ -16,7 +16,7 @@ namespace TigerTakeOut
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrderTracking());
+            //Application.Run(new OrderTracking());
         }
     }
 }
