@@ -39,7 +39,11 @@ namespace TigerTakeOut
 
                 names.Add(foodName);
                 prices.Add(foodPrice);
+            }
 
+            if(names.Count > 5  && prices.Count > 5)
+            {
+                DisableButton();
             }
         }
 
@@ -57,6 +61,11 @@ namespace TigerTakeOut
                 prices.Add(foodPrice2);
 
             }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
 
         private void sand3_Click(object sender, EventArgs e)
@@ -72,6 +81,11 @@ namespace TigerTakeOut
                 names.Add(foodName3);
                 prices.Add(foodPrice3);
 
+            }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
             }
         }
 
@@ -89,6 +103,11 @@ namespace TigerTakeOut
                 prices.Add(foodPrice4);
 
             }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
 
         private void potat1_Click(object sender, EventArgs e)
@@ -105,6 +124,11 @@ namespace TigerTakeOut
                 prices.Add(foodPrice5);
 
             }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
+
         }
 
         private void potat2_Click(object sender, EventArgs e)
@@ -120,6 +144,11 @@ namespace TigerTakeOut
                 names.Add(foodName6);
                 prices.Add(foodPrice6);
 
+            }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
             }
         }
 
@@ -137,6 +166,11 @@ namespace TigerTakeOut
                 prices.Add(foodPrice7);
 
             }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
 
         private void side2_Click(object sender, EventArgs e)
@@ -152,6 +186,10 @@ namespace TigerTakeOut
                 names.Add(foodName8);
                 prices.Add(foodPrice8);
 
+            }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
             }
         }
 
@@ -169,6 +207,10 @@ namespace TigerTakeOut
                 prices.Add(foodPrice9);
 
             }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
 
         private void platter2_Click(object sender, EventArgs e)
@@ -184,6 +226,10 @@ namespace TigerTakeOut
                 names.Add(foodName10);
                 prices.Add(foodPrice10);
 
+            }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
             }
         }
 
@@ -201,6 +247,10 @@ namespace TigerTakeOut
                 prices.Add(foodPrice11);
 
             }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
 
         private void side4_Click(object sender, EventArgs e)
@@ -217,6 +267,26 @@ namespace TigerTakeOut
                 prices.Add(foodPrice12);
 
             }
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
+        }
+
+        public void DisableButton()
+        {
+            sand1.Enabled = false;
+            sand2.Enabled = false;
+            sand3.Enabled = false;
+            sand4.Enabled = false;
+            potat1.Enabled = false;
+            potat2.Enabled = false;
+            platter1.Enabled = false;
+            platter2.Enabled = false;
+            side1.Enabled = false;
+            side2.Enabled = false;
+            side3.Enabled = false;
+            side4.Enabled = false;
         }
     }
 }
