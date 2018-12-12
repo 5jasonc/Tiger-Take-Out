@@ -83,6 +83,7 @@
     <Compile Include="Texas.Designer.cs">
       <DependentUpon>Texas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Variables.cs" />
     <EmbeddedResource Include="Apple.resx">
       <DependentUpon>Apple.cs</DependentUpon>
     </EmbeddedResource>

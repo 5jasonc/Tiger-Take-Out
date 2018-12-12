@@ -15,9 +15,6 @@ namespace TigerTakeOut
     //clicking the "checkout" button will open the checkout form and pass through the lists containing the selected food items
     public partial class Moes : Form
     {
-        //global lists that will hold the names and prices of each food item
-        List<string> names = new List<string>();
-        List<double> prices = new List<double>();
 
         public Moes()
         {
@@ -27,7 +24,7 @@ namespace TigerTakeOut
         //click event for the checkout button, opens the checkout form and passes in the two lists as parameters to be used on the next form
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Checkout checkout = new Checkout(names, prices);
+            Checkout checkout = new Checkout(Variables.names, Variables.prices);
             checkout.ShowDialog();
         }
 
@@ -123,15 +120,15 @@ namespace TigerTakeOut
 
             if (foodItem.Length == 2)
             {
-                string foodName10 = char.ToString(foodItem[0]);
-                double foodPrice10 = Convert.ToDouble(foodItem[1]);
+                string foodName = char.ToString(foodItem[0]);
+                double foodPrice = Convert.ToDouble(foodItem[1]);
 
-                names.Add(foodName10);
-                prices.Add(foodPrice10);
+                Variables.names.Add(foodName);
+                Variables.prices.Add(foodPrice);
 
             }
 
-            if (names.Count > 5 && prices.Count > 5)
+            if (Variables.names.Count > 5 && Variables.prices.Count > 5)
             {
                 DisableButton();
             }
