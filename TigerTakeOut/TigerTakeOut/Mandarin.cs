@@ -12,8 +12,7 @@ namespace TigerTakeOut
 {
     public partial class Mandarin : Form
     {
-        List<string> names = new List<string>();
-        List<double> prices = new List<double>();
+
 
         public Mandarin()
         {
@@ -21,7 +20,7 @@ namespace TigerTakeOut
         }
         private void checkoutBtn_Click(object sender, EventArgs e)
         {
-            Checkout checkout = new Checkout(names, prices);
+            Checkout checkout = new Checkout(Variables.names, Variables.prices);
             checkout.ShowDialog();
         }
 
@@ -122,7 +121,7 @@ namespace TigerTakeOut
 
             }
 
-            if (names.Count > 5 && prices.Count > 5)
+            if (Variables.names.Count > 5 && Variables.prices.Count > 5)
             {
                 DisableButton();
             }

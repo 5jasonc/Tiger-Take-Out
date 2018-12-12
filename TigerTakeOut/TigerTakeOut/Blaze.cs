@@ -15,9 +15,6 @@ namespace TigerTakeOut
     //clicking the "checkout" button will open the checkout form and pass through the lists containing the selected food items
     public partial class Blaze : Form
     {   
-        //global lists that will hold the names and prices of each food item
-        List<string> names = new List<string>();
-        List<double> prices = new List<double>();
 
         public Blaze()
         {
@@ -27,7 +24,7 @@ namespace TigerTakeOut
         //click event for the checkout button, opens the checkout form and passes in the two lists as parameters to be used on the next form
         private void button9_Click(object sender, EventArgs e)
         {
-            Checkout checkout = new Checkout(names, prices);
+            Checkout checkout = new Checkout(Variables.names, Variables.prices);
             checkout.ShowDialog();
         }
 
@@ -114,12 +111,12 @@ namespace TigerTakeOut
                 string foodName = char.ToString(foodItem[0]);
                 double foodPrice = Convert.ToDouble(foodItem[1]);
 
-                names.Add(foodName);
-                prices.Add(foodPrice);
+                Variables.names.Add(foodName);
+                Variables.prices.Add(foodPrice);
 
             }
 
-            if (names.Count > 5 && prices.Count > 5)
+            if (Variables.names.Count > 5 && Variables.prices.Count > 5)
             {
                 DisableButton();
             }
