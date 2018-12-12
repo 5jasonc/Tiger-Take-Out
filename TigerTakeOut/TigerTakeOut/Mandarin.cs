@@ -28,6 +28,8 @@ namespace TigerTakeOut
         public void DisableButton()
         {
             chef1.Enabled = false;
+
+            MessageBox.Show("Cart full, please proceed to checkout");
         }
 
         public void GetItems(object sender)

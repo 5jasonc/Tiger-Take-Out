@@ -99,7 +99,9 @@ namespace TigerTakeOut
             app2.Enabled = false;
             app3.Enabled = false;
             app4.Enabled = false;
-            
+
+            MessageBox.Show("Cart full, please proceed to checkout");
+
         }
 
         public void GetItems(object sender)
