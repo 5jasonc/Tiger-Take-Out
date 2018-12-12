@@ -46,7 +46,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
+            this.checkoutBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // app4
@@ -58,6 +58,7 @@
             this.app4.TabIndex = 51;
             this.app4.Text = "Mozzarella Sticks\r\n8.29";
             this.app4.UseVisualStyleBackColor = true;
+            this.app4.Click += new System.EventHandler(this.app4_Click);
             // 
             // app3
             // 
@@ -68,6 +69,7 @@
             this.app3.TabIndex = 50;
             this.app3.Text = "Boneless Wings\r\n9.99";
             this.app3.UseVisualStyleBackColor = true;
+            this.app3.Click += new System.EventHandler(this.app3_Click);
             // 
             // sand2
             // 
@@ -78,6 +80,7 @@
             this.sand2.TabIndex = 49;
             this.sand2.Text = "Zesty Chicken Sandwich\r\n9.99";
             this.sand2.UseVisualStyleBackColor = true;
+            this.sand2.Click += new System.EventHandler(this.sand2_Click);
             // 
             // sand1
             // 
@@ -88,6 +91,7 @@
             this.sand1.TabIndex = 48;
             this.sand1.Text = "Clubhouse Grille\r\n10.99";
             this.sand1.UseVisualStyleBackColor = true;
+            this.sand1.Click += new System.EventHandler(this.sand1_Click);
             // 
             // label5
             // 
@@ -109,6 +113,7 @@
             this.app2.TabIndex = 46;
             this.app2.Text = "Neighborhood Nachos Beef\r\n10.59";
             this.app2.UseVisualStyleBackColor = true;
+            this.app2.Click += new System.EventHandler(this.app2_Click);
             // 
             // app1
             // 
@@ -119,6 +124,7 @@
             this.app1.TabIndex = 45;
             this.app1.Text = "Breadsticks with Alfredo Sauce\r\n5.49";
             this.app1.UseVisualStyleBackColor = true;
+            this.app1.Click += new System.EventHandler(this.app1_Click);
             // 
             // label4
             // 
@@ -140,6 +146,7 @@
             this.chick1.TabIndex = 43;
             this.chick1.Text = "Chicken Tenders Plate\r\n10.69";
             this.chick1.UseVisualStyleBackColor = true;
+            this.chick1.Click += new System.EventHandler(this.chick1_Click);
             // 
             // chick2
             // 
@@ -150,6 +157,7 @@
             this.chick2.TabIndex = 42;
             this.chick2.Text = "Fiesta Lime Chicken\r\n12.49";
             this.chick2.UseVisualStyleBackColor = true;
+            this.chick2.Click += new System.EventHandler(this.chick2_Click);
             // 
             // label3
             // 
@@ -171,6 +179,7 @@
             this.grill4.TabIndex = 40;
             this.grill4.Text = "8 oz. Top Sirloin\r\n15.49";
             this.grill4.UseVisualStyleBackColor = true;
+            this.grill4.Click += new System.EventHandler(this.grill4_Click);
             // 
             // grill3
             // 
@@ -181,6 +190,7 @@
             this.grill3.TabIndex = 39;
             this.grill3.Text = "Riblet Basket\r\n10.49";
             this.grill3.UseVisualStyleBackColor = true;
+            this.grill3.Click += new System.EventHandler(this.grill3_Click);
             // 
             // grill2
             // 
@@ -191,6 +201,7 @@
             this.grill2.TabIndex = 38;
             this.grill2.Text = "Classic Cheesburger\r\n9.49";
             this.grill2.UseVisualStyleBackColor = true;
+            this.grill2.Click += new System.EventHandler(this.grill2_Click);
             // 
             // grill1
             // 
@@ -201,6 +212,7 @@
             this.grill1.TabIndex = 37;
             this.grill1.Text = "Whisky Bacon Burger\r\n11.29";
             this.grill1.UseVisualStyleBackColor = true;
+            this.grill1.Click += new System.EventHandler(this.grill1_Click);
             // 
             // label2
             // 
@@ -233,17 +245,18 @@
             this.label6.Size = new System.Drawing.Size(3, 260);
             this.label6.TabIndex = 53;
             // 
-            // button13
+            // checkoutBtn
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(1051, 210);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(150, 56);
-            this.button13.TabIndex = 56;
-            this.button13.Text = "Checkout";
-            this.button13.UseVisualStyleBackColor = false;
+            this.checkoutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.checkoutBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkoutBtn.ForeColor = System.Drawing.Color.White;
+            this.checkoutBtn.Location = new System.Drawing.Point(1051, 210);
+            this.checkoutBtn.Name = "checkoutBtn";
+            this.checkoutBtn.Size = new System.Drawing.Size(150, 56);
+            this.checkoutBtn.TabIndex = 56;
+            this.checkoutBtn.Text = "Checkout";
+            this.checkoutBtn.UseVisualStyleBackColor = false;
+            this.checkoutBtn.Click += new System.EventHandler(this.checkoutBtn_Click);
             // 
             // Apple
             // 
@@ -252,7 +265,7 @@
             this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 861);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.checkoutBtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.app4);
             this.Controls.Add(this.app3);
@@ -297,6 +310,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button checkoutBtn;
     }
 }
