@@ -19,8 +19,68 @@ namespace TigerTakeOut
         {
             InitializeComponent();
         }
+        private void checkoutBtn_Click(object sender, EventArgs e)
+        {
+            Checkout checkout = new Checkout(names, prices);
+            checkout.ShowDialog();
+        }
 
         private void chef1_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void chef2_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void chef3_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void chef4_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void soup1_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void soup2_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void rice1_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void rice2_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void app1_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void app2_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void app3_Click(object sender, EventArgs e)
+        {
+            GetItems(sender);
+        }
+
+        private void app4_Click(object sender, EventArgs e)
         {
             GetItems(sender);
         }
@@ -28,6 +88,17 @@ namespace TigerTakeOut
         public void DisableButton()
         {
             chef1.Enabled = false;
+            chef2.Enabled = false;
+            chef3.Enabled = false;
+            chef4.Enabled = false;
+            soup1.Enabled = false;
+            soup2.Enabled = false;
+            rice1.Enabled = false;
+            rice2.Enabled = false;
+            app1.Enabled = false;
+            app2.Enabled = false;
+            app3.Enabled = false;
+            app4.Enabled = false;
 
             MessageBox.Show("Cart full, please proceed to checkout");
         }
@@ -39,11 +110,11 @@ namespace TigerTakeOut
 
             if (foodItem.Length == 2)
             {
-                string foodName10 = char.ToString(foodItem[0]);
-                double foodPrice10 = Convert.ToDouble(foodItem[1]);
+                string foodName = char.ToString(foodItem[0]);
+                double foodPrice = Convert.ToDouble(foodItem[1]);
 
-                names.Add(foodName10);
-                prices.Add(foodPrice10);
+                names.Add(foodName);
+                prices.Add(foodPrice);
 
             }
 
@@ -52,5 +123,6 @@ namespace TigerTakeOut
                 DisableButton();
             }
         }
+
     }
 }
