@@ -17,10 +17,13 @@ namespace TigerTakeOut
             InitializeComponent();
         }
 
+        //Event that triggers when the selected index of the combo box changes
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //save the selected index number to an int variable
             int select = comboBox1.SelectedIndex;
 
+            //depending on the selected index of the combo box, open the respective menu form for that restaurant
             if(select == 0)
             {
                 Mandarin mandarin = new Mandarin();
