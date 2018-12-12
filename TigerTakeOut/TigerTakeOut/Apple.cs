@@ -104,6 +104,11 @@ namespace TigerTakeOut
 
         }
 
+        //Function to split the text within the passed in sender object (from the menu item buttons)
+        //Once the button text is split on the line break, check to make sure there are two items in the temporary foodItem array
+        //if the temporary array has two items within it, convert the first item(menu item name) to a string and convert the second menu item price) to a double. Then, push each into their respective lists.
+        //if the lists have five objects each (five food items and their prices), all buttons will be disabled and the user is prompted to checkout
+
         public void GetItems(object sender)
         {
             string foodItem = ((Button)sender).Text;

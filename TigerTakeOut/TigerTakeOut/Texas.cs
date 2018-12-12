@@ -123,11 +123,11 @@ namespace TigerTakeOut
 
             if (foodItem.Length == 2)
             {
-                string foodName10 = char.ToString(foodItem[0]);
-                double foodPrice10 = Convert.ToDouble(foodItem[1]);
+                string foodName = char.ToString(foodItem[0]);
+                double foodPrice = Convert.ToDouble(foodItem[1]);
 
-                names.Add(foodName10);
-                prices.Add(foodPrice10);
+                names.Add(foodName);
+                prices.Add(foodPrice);
 
             }
 
