@@ -22,201 +22,105 @@ namespace TigerTakeOut
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string foodItem = this.Text;
-            foodItem.Split('\n');
-
-            if(foodItem.Length == 2)
-            {
-                string foodName = char.ToString(foodItem[0]);
-                double foodPrice = Convert.ToDouble(foodItem[1]);
-
-                names.Add(foodName);
-                prices.Add(foodPrice);
-
-            }
-
+            GetItems(sender);
         }
 
         private void burrito2_Click(object sender, EventArgs e)
         {
-            string foodItem2 = this.Text;
-            foodItem2.Split('\n');
-
-            if (foodItem2.Length == 2)
-            {
-                string foodName2 = char.ToString(foodItem2[0]);
-                double foodPrice2 = Convert.ToDouble(foodItem2[1]);
-
-                names.Add(foodName2);
-                prices.Add(foodPrice2);
-
-            }
+            GetItems(sender);
         }
 
         private void burrito3_Click(object sender, EventArgs e)
         {
-            string foodItem2 = this.Text;
-            foodItem2.Split('\n');
-
-            if (foodItem2.Length == 2)
-            {
-                string foodName2 = char.ToString(foodItem2[0]);
-                double foodPrice2 = Convert.ToDouble(foodItem2[1]);
-
-                names.Add(foodName2);
-                prices.Add(foodPrice2);
-
-            }
+            GetItems(sender);
         }
 
         private void burrito4_Click(object sender, EventArgs e)
         {
-            string foodItem4 = this.Text;
-            foodItem4.Split('\n');
-
-            if (foodItem4.Length == 2)
-            {
-                string foodName4 = char.ToString(foodItem4[0]);
-                double foodPrice4 = Convert.ToDouble(foodItem4[1]);
-
-                names.Add(foodName4);
-                prices.Add(foodPrice4);
-
-            }
+            GetItems(sender);
         }
 
         private void dilla1_Click(object sender, EventArgs e)
         {
-            string foodItem4 = this.Text;
-            foodItem4.Split('\n');
-
-            if (foodItem4.Length == 2)
-            {
-                string foodName4 = char.ToString(foodItem4[0]);
-                double foodPrice4 = Convert.ToDouble(foodItem4[1]);
-
-                names.Add(foodName4);
-                prices.Add(foodPrice4);
-
-            }
+            GetItems(sender);
         }
 
         private void dila2_Click(object sender, EventArgs e)
         {
-            string foodItem6 = this.Text;
-            foodItem6.Split('\n');
-
-            if (foodItem6.Length == 2)
-            {
-                string foodName6 = char.ToString(foodItem6[0]);
-                double foodPrice6 = Convert.ToDouble(foodItem6[1]);
-
-                names.Add(foodName6);
-                prices.Add(foodPrice6);
-
-            }
+            GetItems(sender);
         }
 
         private void side1_Click(object sender, EventArgs e)
         {
-            string foodItem7 = this.Text;
-            foodItem7.Split('\n');
-
-            if (foodItem7.Length == 2)
-            {
-                string foodName7 = char.ToString(foodItem7[0]);
-                double foodPrice7 = Convert.ToDouble(foodItem7[1]);
-
-                names.Add(foodName7);
-                prices.Add(foodPrice7);
-
-            }
+            GetItems(sender);
         }
 
         private void side2_Click(object sender, EventArgs e)
         {
-            string foodItem8 = this.Text;
-            foodItem8.Split('\n');
-
-            if (foodItem8.Length == 2)
-            {
-                string foodName8 = char.ToString(foodItem8[0]);
-                double foodPrice8 = Convert.ToDouble(foodItem8[1]);
-
-                names.Add(foodName8);
-                prices.Add(foodPrice8);
-
-            }
+            GetItems(sender);
         }
 
         private void side3_Click(object sender, EventArgs e)
         {
-            string foodItem8 = this.Text;
-            foodItem8.Split('\n');
-
-            if (foodItem8.Length == 2)
-            {
-                string foodName8 = char.ToString(foodItem8[0]);
-                double foodPrice8 = Convert.ToDouble(foodItem8[1]);
-
-                names.Add(foodName8);
-                prices.Add(foodPrice8);
-
-            }
+            GetItems(sender);
         }
 
         private void side4_Click(object sender, EventArgs e)
         {
-            string foodItem10 = this.Text;
-            foodItem10.Split('\n');
-
-            if (foodItem10.Length == 2)
-            {
-                string foodName10 = char.ToString(foodItem10[0]);
-                double foodPrice10 = Convert.ToDouble(foodItem10[1]);
-
-                names.Add(foodName10);
-                prices.Add(foodPrice10);
-
-            }
+            GetItems(sender);
         }
 
         private void taco1_Click(object sender, EventArgs e)
         {
-            string foodItem11 = this.Text;
-            foodItem11.Split('\n');
-
-            if (foodItem11.Length == 2)
-            {
-                string foodName11 = char.ToString(foodItem11[0]);
-                double foodPrice11 = Convert.ToDouble(foodItem11[1]);
-
-                names.Add(foodName11);
-                prices.Add(foodPrice11);
-
-            }
+            GetItems(sender);
         }
 
         private void taco2_Click(object sender, EventArgs e)
         {
-            string foodItem12 = this.Text;
-            foodItem12.Split('\n');
-
-            if (foodItem12.Length == 2)
-            {
-                string foodName12 = char.ToString(foodItem12[0]);
-                double foodPrice12 = Convert.ToDouble(foodItem12[1]);
-
-                names.Add(foodName12);
-                prices.Add(foodPrice12);
-
-            }
+            GetItems(sender);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Checkout checkout = new Checkout(names, prices);
             checkout.ShowDialog();
+        }
+
+        public void DisableButton()
+        {
+            button1.Enabled = false;
+            burrito2.Enabled = false;
+            burrito3.Enabled = false;
+            dilla1.Enabled = false;
+            dila2.Enabled = false;
+            side1.Enabled = false;
+            side2.Enabled = false;
+            side3.Enabled = false;
+            side4.Enabled = false;
+            taco1.Enabled = false;
+            taco2.Enabled = false;
+            burrito4.Enabled = false;
+        }
+
+        public void GetItems(object sender)
+        {
+            string foodItem = ((Button)sender).Text;
+            foodItem.Split('\n');
+
+            if (foodItem.Length == 2)
+            {
+                string foodName10 = char.ToString(foodItem[0]);
+                double foodPrice10 = Convert.ToDouble(foodItem[1]);
+
+                names.Add(foodName10);
+                prices.Add(foodPrice10);
+
+            }
+
+            if (names.Count > 5 && prices.Count > 5)
+            {
+                DisableButton();
+            }
         }
     }
 }
