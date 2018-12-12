@@ -12,8 +12,6 @@ namespace TigerTakeOut
 {
     public partial class Apple : Form
     {
-        List<string> names = new List<string>();
-        List<double> prices = new List<double>();
         public Apple()
         {
             InitializeComponent();
@@ -21,7 +19,7 @@ namespace TigerTakeOut
 
         private void checkoutBtn_Click(object sender, EventArgs e)
         {
-            Checkout checkout = new Checkout(names, prices);
+            Checkout checkout = new Checkout(Variables.names, Variables.prices);
             checkout.ShowDialog();
         }
 
@@ -119,12 +117,12 @@ namespace TigerTakeOut
                 string foodName = char.ToString(foodItem[0]);
                 double foodPrice = Convert.ToDouble(foodItem[1]);
 
-                names.Add(foodName);
-                prices.Add(foodPrice);
+                Variables.names.Add(foodName);
+                Variables.prices.Add(foodPrice);
 
             }
 
-            if (names.Count > 5 && prices.Count > 5)
+            if (Variables.names.Count > 5 && Variables.prices.Count > 5)
             {
                 DisableButton();
             }
