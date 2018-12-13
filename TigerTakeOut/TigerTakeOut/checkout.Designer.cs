@@ -178,6 +178,7 @@
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(322, 22);
             this.emailBox.TabIndex = 24;
+            this.emailBox.TextChanged += new System.EventHandler(this.emailBox_TextChanged);
             // 
             // streetLabel
             // 
@@ -197,6 +198,7 @@
             this.aptBox.Name = "aptBox";
             this.aptBox.Size = new System.Drawing.Size(69, 22);
             this.aptBox.TabIndex = 28;
+            this.aptBox.TextChanged += new System.EventHandler(this.aptBox_TextChanged);
             // 
             // aptLabel
             // 
@@ -216,6 +218,7 @@
             this.cityBox.Name = "cityBox";
             this.cityBox.Size = new System.Drawing.Size(139, 22);
             this.cityBox.TabIndex = 30;
+            this.cityBox.TextChanged += new System.EventHandler(this.cityBox_TextChanged);
             // 
             // cityLabel
             // 
@@ -259,6 +262,7 @@
             this.streetBox.Name = "streetBox";
             this.streetBox.Size = new System.Drawing.Size(322, 22);
             this.streetBox.TabIndex = 26;
+            this.streetBox.TextChanged += new System.EventHandler(this.streetBox_TextChanged);
             // 
             // zipBox
             // 
@@ -267,6 +271,7 @@
             this.zipBox.Name = "zipBox";
             this.zipBox.Size = new System.Drawing.Size(139, 22);
             this.zipBox.TabIndex = 32;
+            this.zipBox.TextChanged += new System.EventHandler(this.zipBox_TextChanged);
             // 
             // food1
             // 
@@ -400,7 +405,6 @@
             this.fullTotal.Size = new System.Drawing.Size(59, 29);
             this.fullTotal.TabIndex = 38;
             this.fullTotal.Text = "0.00";
-
             // 
             // Checkout
             // 

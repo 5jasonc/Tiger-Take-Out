@@ -44,7 +44,7 @@ namespace TigerTakeOut
         private void yesButton_Click(object sender, EventArgs e)
         {
             orderCancelled = true;
-            this.Close();
+            Application.Exit();
         }
     }
 }

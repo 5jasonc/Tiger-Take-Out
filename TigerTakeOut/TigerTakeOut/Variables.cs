@@ -23,6 +23,7 @@ namespace TigerTakeOut
         //email, street, city, and zip
         public static string email = "";
         public static string street = "";
+        public static string apptNum = "";
         public static string city = "";
         public static string zip = "";
 

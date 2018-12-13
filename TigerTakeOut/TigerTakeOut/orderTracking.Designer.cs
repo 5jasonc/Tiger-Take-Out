@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderTracking));
-            this.goBackButton = new System.Windows.Forms.Button();
             this.cancelOrderButton = new System.Windows.Forms.Button();
             this.orderProgressLabel = new System.Windows.Forms.Label();
             this.orderProgress = new System.Windows.Forms.ProgressBar();
@@ -46,21 +45,9 @@
             this.city = new System.Windows.Forms.Label();
             this.zip = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.Label();
+            this.apt = new System.Windows.Forms.Label();
+            this.goBackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // goBackButton
-            // 
-            this.goBackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.goBackButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goBackButton.ForeColor = System.Drawing.Color.White;
-            this.goBackButton.Location = new System.Drawing.Point(11, 790);
-            this.goBackButton.Margin = new System.Windows.Forms.Padding(2);
-            this.goBackButton.Name = "goBackButton";
-            this.goBackButton.Size = new System.Drawing.Size(212, 60);
-            this.goBackButton.TabIndex = 0;
-            this.goBackButton.Text = "Go Back";
-            this.goBackButton.UseVisualStyleBackColor = false;
-            this.goBackButton.Click += new System.EventHandler(this.goBackButton_Click);
             // 
             // cancelOrderButton
             // 
@@ -228,6 +215,30 @@
             this.email.TabIndex = 16;
             this.email.Text = "email";
             // 
+            // apt
+            // 
+            this.apt.AutoSize = true;
+            this.apt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.apt.Location = new System.Drawing.Point(1041, 345);
+            this.apt.Name = "apt";
+            this.apt.Size = new System.Drawing.Size(58, 16);
+            this.apt.TabIndex = 16;
+            this.apt.Text = "AptNum";
+            // 
+            // goBackButton
+            // 
+            this.goBackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
+            this.goBackButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goBackButton.ForeColor = System.Drawing.Color.White;
+            this.goBackButton.Location = new System.Drawing.Point(11, 790);
+            this.goBackButton.Margin = new System.Windows.Forms.Padding(2);
+            this.goBackButton.Name = "goBackButton";
+            this.goBackButton.Size = new System.Drawing.Size(212, 60);
+            this.goBackButton.TabIndex = 0;
+            this.goBackButton.Text = "Go Back";
+            this.goBackButton.UseVisualStyleBackColor = false;
+            this.goBackButton.Click += new System.EventHandler(this.goBackButton_Click);
+            // 
             // OrderTracking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -238,6 +249,7 @@
             this.Controls.Add(this.zip);
             this.Controls.Add(this.email);
             this.Controls.Add(this.city);
+            this.Controls.Add(this.apt);
             this.Controls.Add(this.street);
             this.Controls.Add(this.orderMethodLabel);
             this.Controls.Add(this.emailLabel);
@@ -260,8 +272,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button goBackButton;
         private System.Windows.Forms.Button cancelOrderButton;
         private System.Windows.Forms.Label orderProgressLabel;
         private System.Windows.Forms.ProgressBar orderProgress;
@@ -278,6 +288,8 @@
         private System.Windows.Forms.Label city;
         private System.Windows.Forms.Label zip;
         private System.Windows.Forms.Label email;
+        private System.Windows.Forms.Label apt;
+        private System.Windows.Forms.Button goBackButton;
     }
 }
 

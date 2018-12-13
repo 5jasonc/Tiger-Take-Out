@@ -124,10 +124,10 @@ namespace TigerTakeOut
 
             stotal.Text = Convert.ToString(Variables.subTotal);
 
-            Variables.email = emailBox.Text;
-            Variables.street = streetBox.Text;
-            Variables.city = cityBox.Text;
-            Variables.zip = zipBox.Text;
+      
+          
+        
+
 
 
 
@@ -139,6 +139,29 @@ namespace TigerTakeOut
             order.ShowDialog();
         }
 
+        private void emailBox_TextChanged(object sender, EventArgs e)
+        {
+            Variables.email = emailBox.Text;
+        }
 
+        private void streetBox_TextChanged(object sender, EventArgs e)
+        {
+            Variables.street = streetBox.Text;
+        }
+
+        private void aptBox_TextChanged(object sender, EventArgs e)
+        {
+            Variables.apptNum = aptBox.Text;
+        }
+
+        private void cityBox_TextChanged(object sender, EventArgs e)
+        {
+            Variables.city = cityBox.Text;
+        }
+
+        private void zipBox_TextChanged(object sender, EventArgs e)
+        {
+            Variables.zip = zipBox.Text;
+        }
     }
 }

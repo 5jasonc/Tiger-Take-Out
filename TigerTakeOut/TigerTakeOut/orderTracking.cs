@@ -25,6 +25,12 @@ namespace TigerTakeOut
         {
             InitializeComponent();
             orderTimer.Start();
+
+            email.Text = Variables.email;
+            street.Text = Variables.street;
+            apt.Text = Variables.apptNum;
+            city.Text = Variables.city;
+            zip.Text = Variables.zip;
         }
 
         // Events //
@@ -62,7 +68,7 @@ namespace TigerTakeOut
 
         private void goBackButton_Click(object sender, EventArgs e)
         {
-            // Add action for going back a page
+            this.Close();
         }
     }
 }
