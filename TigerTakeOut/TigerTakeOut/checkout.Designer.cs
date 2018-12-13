@@ -104,9 +104,8 @@
             this.item1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item1.Location = new System.Drawing.Point(295, 322);
             this.item1.Name = "item1";
-            this.item1.Size = new System.Drawing.Size(246, 27);
+            this.item1.Size = new System.Drawing.Size(0, 27);
             this.item1.TabIndex = 5;
-            this.item1.Text = "Chicken Noodle Soup";
             // 
             // item2
             // 
@@ -115,9 +114,8 @@
             this.item2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item2.Location = new System.Drawing.Point(295, 366);
             this.item2.Name = "item2";
-            this.item2.Size = new System.Drawing.Size(246, 27);
+            this.item2.Size = new System.Drawing.Size(0, 27);
             this.item2.TabIndex = 6;
-            this.item2.Text = "Chicken Noodle Soup";
             // 
             // item3
             // 
@@ -126,9 +124,8 @@
             this.item3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item3.Location = new System.Drawing.Point(295, 410);
             this.item3.Name = "item3";
-            this.item3.Size = new System.Drawing.Size(246, 27);
+            this.item3.Size = new System.Drawing.Size(0, 27);
             this.item3.TabIndex = 7;
-            this.item3.Text = "Chicken Noodle Soup";
             // 
             // item5
             // 
@@ -137,9 +134,8 @@
             this.item5.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item5.Location = new System.Drawing.Point(295, 505);
             this.item5.Name = "item5";
-            this.item5.Size = new System.Drawing.Size(246, 27);
+            this.item5.Size = new System.Drawing.Size(0, 27);
             this.item5.TabIndex = 9;
-            this.item5.Text = "Chicken Noodle Soup";
             // 
             // item4
             // 
@@ -148,9 +144,8 @@
             this.item4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.item4.Location = new System.Drawing.Point(295, 458);
             this.item4.Name = "item4";
-            this.item4.Size = new System.Drawing.Size(246, 27);
+            this.item4.Size = new System.Drawing.Size(0, 27);
             this.item4.TabIndex = 8;
-            this.item4.Text = "Chicken Noodle Soup";
             // 
             // price1
             // 
@@ -159,9 +154,8 @@
             this.price1.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price1.Location = new System.Drawing.Point(701, 323);
             this.price1.Name = "price1";
-            this.price1.Size = new System.Drawing.Size(70, 26);
+            this.price1.Size = new System.Drawing.Size(0, 26);
             this.price1.TabIndex = 10;
-            this.price1.Text = "$5.00";
             // 
             // price2
             // 
@@ -170,9 +164,8 @@
             this.price2.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price2.Location = new System.Drawing.Point(701, 367);
             this.price2.Name = "price2";
-            this.price2.Size = new System.Drawing.Size(70, 26);
+            this.price2.Size = new System.Drawing.Size(0, 26);
             this.price2.TabIndex = 11;
-            this.price2.Text = "$5.00";
             // 
             // price3
             // 
@@ -181,9 +174,8 @@
             this.price3.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price3.Location = new System.Drawing.Point(701, 411);
             this.price3.Name = "price3";
-            this.price3.Size = new System.Drawing.Size(70, 26);
+            this.price3.Size = new System.Drawing.Size(0, 26);
             this.price3.TabIndex = 12;
-            this.price3.Text = "$5.00";
             // 
             // price4
             // 
@@ -192,9 +184,8 @@
             this.price4.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price4.Location = new System.Drawing.Point(701, 459);
             this.price4.Name = "price4";
-            this.price4.Size = new System.Drawing.Size(70, 26);
+            this.price4.Size = new System.Drawing.Size(0, 26);
             this.price4.TabIndex = 13;
-            this.price4.Text = "$5.00";
             // 
             // price5
             // 
@@ -203,9 +194,8 @@
             this.price5.Font = new System.Drawing.Font("Arial", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price5.Location = new System.Drawing.Point(701, 506);
             this.price5.Name = "price5";
-            this.price5.Size = new System.Drawing.Size(70, 26);
+            this.price5.Size = new System.Drawing.Size(0, 26);
             this.price5.TabIndex = 14;
-            this.price5.Text = "$5.00";
             // 
             // line1
             // 
@@ -235,9 +225,8 @@
             this.subtotal.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.subtotal.Location = new System.Drawing.Point(702, 590);
             this.subtotal.Name = "subtotal";
-            this.subtotal.Size = new System.Drawing.Size(76, 24);
+            this.subtotal.Size = new System.Drawing.Size(0, 24);
             this.subtotal.TabIndex = 17;
-            this.subtotal.Text = "$25.00";
             // 
             // fee
             // 
@@ -247,9 +236,9 @@
             this.fee.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.fee.Location = new System.Drawing.Point(703, 637);
             this.fee.Name = "fee";
-            this.fee.Size = new System.Drawing.Size(64, 24);
+            this.fee.Size = new System.Drawing.Size(52, 24);
             this.fee.TabIndex = 19;
-            this.fee.Text = "$5.99";
+            this.fee.Text = "5.99";
             // 
             // feeLabel
             // 
@@ -271,9 +260,8 @@
             this.total.ForeColor = System.Drawing.SystemColors.ControlText;
             this.total.Location = new System.Drawing.Point(691, 703);
             this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(98, 32);
+            this.total.Size = new System.Drawing.Size(0, 32);
             this.total.TabIndex = 21;
-            this.total.Text = "$30.99";
             // 
             // totalLabel
             // 
@@ -415,7 +403,7 @@
             this.backBtn.Text = "Go Back";
             this.backBtn.UseVisualStyleBackColor = false;
             // 
-            // checkout
+            // Checkout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -455,7 +443,7 @@
             this.Controls.Add(this.cartTotalLabel);
             this.Controls.Add(this.graybackground);
             this.Controls.Add(this.shoppingCartLabel);
-            this.Name = "checkout";
+            this.Name = "Checkout";
             this.Text = "Check Out";
             ((System.ComponentModel.ISupportInitialize)(this.graybackground)).EndInit();
             this.ResumeLayout(false);
