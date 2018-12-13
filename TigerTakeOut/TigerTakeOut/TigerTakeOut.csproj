@@ -63,6 +63,12 @@
     <Compile Include="CancelOrder.Designer.cs">
       <DependentUpon>CancelOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="checkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkout.Designer.cs">
+      <DependentUpon>checkout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mandarin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CancelOrder.resx">
       <DependentUpon>CancelOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkout.resx">
+      <DependentUpon>checkout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mandarin.resx">
       <DependentUpon>Mandarin.cs</DependentUpon>
