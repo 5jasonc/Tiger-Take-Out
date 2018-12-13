@@ -13,8 +13,8 @@ namespace TigerTakeOut
         public static List<double> prices = new List<double>();
 
         //global lists for updating text in checkout and tracking
-        public static List<string> items = new List<string>();
-        public static List<double> costs = new List<double>();
+        //public static List<string> items = new List<string>();
+        //public static List<double> costs = new List<double>();
 
         //global variables for subtotal and total
         public static double subTotal = 0;
@@ -24,7 +24,7 @@ namespace TigerTakeOut
         public static string email = "";
         public static string street = "";
         public static string city = "";
-        public static double zip = 0;
+        public static string zip = "";
 
 
     }
