@@ -93,7 +93,7 @@ namespace TigerTakeOut
         //lets user know the cart is full and to proceed to checkout
         public void DisableButton()
         {
-            button1.Enabled = false;
+            burrito1.Enabled = false;
             burrito2.Enabled = false;
             burrito3.Enabled = false;
             dilla1.Enabled = false;
@@ -116,19 +116,21 @@ namespace TigerTakeOut
         public void GetItems(object sender)
         {
             string foodItem = ((Button)sender).Text;
-            foodItem.Split('\n');
+            string[] foods = foodItem.Split('\n');
 
-            if (foodItem.Length == 2)
+            if (foods.Length >= 2)
             {
-                string foodName = char.ToString(foodItem[0]);
-                double foodPrice = Convert.ToDouble(foodItem[1]);
+                string foodName = foods[0];
+                double foodPrice = Convert.ToDouble(foods[1]);
 
                 Variables.names.Add(foodName);
                 Variables.prices.Add(foodPrice);
 
+                MessageBox.Show("Item added");
+
             }
 
-            if (Variables.names.Count > 5 && Variables.prices.Count > 5)
+            if (Variables.names.Count >= 5 || Variables.prices.Count >= 5)
             {
                 DisableButton();
             }

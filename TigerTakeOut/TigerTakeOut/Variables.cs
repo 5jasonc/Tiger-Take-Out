@@ -20,5 +20,12 @@ namespace TigerTakeOut
         public static double subTotal = 0;
         public static double total = 0;
 
+        //email, street, city, and zip
+        public static string email = "";
+        public static string street = "";
+        public static string city = "";
+        public static double zip = 0;
+
+
     }
 }

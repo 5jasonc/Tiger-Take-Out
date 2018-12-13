@@ -40,25 +40,8 @@
             this.orderSummaryLabel = new System.Windows.Forms.Label();
             this.addressLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
-            this.orderReceiptLabel = new System.Windows.Forms.Label();
             this.orderMethodLabel = new System.Windows.Forms.Label();
             this.orderTimer = new System.Windows.Forms.Timer(this.components);
-            this.item1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.price1 = new System.Windows.Forms.Label();
-            this.price2 = new System.Windows.Forms.Label();
-            this.price3 = new System.Windows.Forms.Label();
-            this.price4 = new System.Windows.Forms.Label();
-            this.price5 = new System.Windows.Forms.Label();
-            this.subtotalLabel = new System.Windows.Forms.Label();
-            this.subtotal = new System.Windows.Forms.Label();
-            this.deliveryFeeLabel = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.totalLabel = new System.Windows.Forms.Label();
-            this.total = new System.Windows.Forms.Label();
             this.street = new System.Windows.Forms.Label();
             this.city = new System.Windows.Forms.Label();
             this.zip = new System.Windows.Forms.Label();
@@ -189,18 +172,6 @@
             this.emailLabel.TabIndex = 10;
             this.emailLabel.Text = "Email:";
             // 
-            // orderReceiptLabel
-            // 
-            this.orderReceiptLabel.AutoSize = true;
-            this.orderReceiptLabel.BackColor = System.Drawing.Color.Transparent;
-            this.orderReceiptLabel.Font = new System.Drawing.Font("Georgia", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderReceiptLabel.Location = new System.Drawing.Point(1162, 302);
-            this.orderReceiptLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.orderReceiptLabel.Name = "orderReceiptLabel";
-            this.orderReceiptLabel.Size = new System.Drawing.Size(172, 29);
-            this.orderReceiptLabel.TabIndex = 11;
-            this.orderReceiptLabel.Text = "Order Receipt:";
-            // 
             // orderMethodLabel
             // 
             this.orderMethodLabel.AutoSize = true;
@@ -216,176 +187,6 @@
             // orderTimer
             // 
             this.orderTimer.Tick += new System.EventHandler(this.orderTimer_Tick);
-            // 
-            // item1
-            // 
-            this.item1.AutoSize = true;
-            this.item1.BackColor = System.Drawing.Color.Transparent;
-            this.item1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.item1.Location = new System.Drawing.Point(1167, 343);
-            this.item1.Name = "item1";
-            this.item1.Size = new System.Drawing.Size(0, 18);
-            this.item1.TabIndex = 15;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1167, 377);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 18);
-            this.label1.TabIndex = 15;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1167, 412);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 18);
-            this.label2.TabIndex = 15;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1167, 446);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 18);
-            this.label3.TabIndex = 15;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1167, 483);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 18);
-            this.label4.TabIndex = 15;
-            // 
-            // price1
-            // 
-            this.price1.AutoSize = true;
-            this.price1.BackColor = System.Drawing.Color.Transparent;
-            this.price1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price1.Location = new System.Drawing.Point(1394, 343);
-            this.price1.Name = "price1";
-            this.price1.Size = new System.Drawing.Size(0, 18);
-            this.price1.TabIndex = 15;
-            // 
-            // price2
-            // 
-            this.price2.AutoSize = true;
-            this.price2.BackColor = System.Drawing.Color.Transparent;
-            this.price2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price2.Location = new System.Drawing.Point(1394, 377);
-            this.price2.Name = "price2";
-            this.price2.Size = new System.Drawing.Size(0, 18);
-            this.price2.TabIndex = 15;
-            // 
-            // price3
-            // 
-            this.price3.AutoSize = true;
-            this.price3.BackColor = System.Drawing.Color.Transparent;
-            this.price3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price3.Location = new System.Drawing.Point(1394, 412);
-            this.price3.Name = "price3";
-            this.price3.Size = new System.Drawing.Size(0, 18);
-            this.price3.TabIndex = 15;
-            // 
-            // price4
-            // 
-            this.price4.AutoSize = true;
-            this.price4.BackColor = System.Drawing.Color.Transparent;
-            this.price4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price4.Location = new System.Drawing.Point(1394, 446);
-            this.price4.Name = "price4";
-            this.price4.Size = new System.Drawing.Size(0, 18);
-            this.price4.TabIndex = 15;
-            // 
-            // price5
-            // 
-            this.price5.AutoSize = true;
-            this.price5.BackColor = System.Drawing.Color.Transparent;
-            this.price5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price5.Location = new System.Drawing.Point(1394, 483);
-            this.price5.Name = "price5";
-            this.price5.Size = new System.Drawing.Size(0, 18);
-            this.price5.TabIndex = 15;
-            // 
-            // subtotalLabel
-            // 
-            this.subtotalLabel.AutoSize = true;
-            this.subtotalLabel.BackColor = System.Drawing.Color.Transparent;
-            this.subtotalLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subtotalLabel.ForeColor = System.Drawing.Color.DimGray;
-            this.subtotalLabel.Location = new System.Drawing.Point(1167, 551);
-            this.subtotalLabel.Name = "subtotalLabel";
-            this.subtotalLabel.Size = new System.Drawing.Size(65, 18);
-            this.subtotalLabel.TabIndex = 15;
-            this.subtotalLabel.Text = "Subtotal";
-            // 
-            // subtotal
-            // 
-            this.subtotal.AutoSize = true;
-            this.subtotal.BackColor = System.Drawing.Color.Transparent;
-            this.subtotal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subtotal.ForeColor = System.Drawing.Color.DimGray;
-            this.subtotal.Location = new System.Drawing.Point(1394, 551);
-            this.subtotal.Name = "subtotal";
-            this.subtotal.Size = new System.Drawing.Size(0, 18);
-            this.subtotal.TabIndex = 15;
-            // 
-            // deliveryFeeLabel
-            // 
-            this.deliveryFeeLabel.AutoSize = true;
-            this.deliveryFeeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.deliveryFeeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deliveryFeeLabel.ForeColor = System.Drawing.Color.DimGray;
-            this.deliveryFeeLabel.Location = new System.Drawing.Point(1167, 591);
-            this.deliveryFeeLabel.Name = "deliveryFeeLabel";
-            this.deliveryFeeLabel.Size = new System.Drawing.Size(96, 18);
-            this.deliveryFeeLabel.TabIndex = 15;
-            this.deliveryFeeLabel.Text = "Delivery Fee";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.DimGray;
-            this.label11.Location = new System.Drawing.Point(1394, 591);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 18);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "5.99";
-            // 
-            // totalLabel
-            // 
-            this.totalLabel.AutoSize = true;
-            this.totalLabel.BackColor = System.Drawing.Color.Transparent;
-            this.totalLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalLabel.ForeColor = System.Drawing.Color.Black;
-            this.totalLabel.Location = new System.Drawing.Point(1167, 641);
-            this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(46, 19);
-            this.totalLabel.TabIndex = 15;
-            this.totalLabel.Text = "Total";
-            // 
-            // total
-            // 
-            this.total.AutoSize = true;
-            this.total.BackColor = System.Drawing.Color.Transparent;
-            this.total.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.total.ForeColor = System.Drawing.Color.Black;
-            this.total.Location = new System.Drawing.Point(1393, 636);
-            this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(0, 24);
-            this.total.TabIndex = 15;
             // 
             // street
             // 
@@ -438,24 +239,7 @@
             this.Controls.Add(this.email);
             this.Controls.Add(this.city);
             this.Controls.Add(this.street);
-            this.Controls.Add(this.total);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.subtotal);
-            this.Controls.Add(this.price5);
-            this.Controls.Add(this.price4);
-            this.Controls.Add(this.totalLabel);
-            this.Controls.Add(this.deliveryFeeLabel);
-            this.Controls.Add(this.subtotalLabel);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.price3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.price2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.price1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.item1);
             this.Controls.Add(this.orderMethodLabel);
-            this.Controls.Add(this.orderReceiptLabel);
             this.Controls.Add(this.emailLabel);
             this.Controls.Add(this.addressLabel);
             this.Controls.Add(this.orderSummaryLabel);
@@ -487,25 +271,9 @@
         private System.Windows.Forms.Label orderSummaryLabel;
         private System.Windows.Forms.Label addressLabel;
         private System.Windows.Forms.Label emailLabel;
-        private System.Windows.Forms.Label orderReceiptLabel;
         private System.Windows.Forms.Label orderMethodLabel;
         private System.Windows.Forms.Timer orderTimer;
-        private System.Windows.Forms.Label item1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label price1;
-        private System.Windows.Forms.Label price2;
-        private System.Windows.Forms.Label price3;
-        private System.Windows.Forms.Label price4;
-        private System.Windows.Forms.Label price5;
-        private System.Windows.Forms.Label subtotalLabel;
-        private System.Windows.Forms.Label subtotal;
-        private System.Windows.Forms.Label deliveryFeeLabel;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label totalLabel;
-        private System.Windows.Forms.Label total;
+
         private System.Windows.Forms.Label street;
         private System.Windows.Forms.Label city;
         private System.Windows.Forms.Label zip;
