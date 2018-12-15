@@ -25,8 +25,8 @@ namespace TigerTakeOut
 
             if (passwordlength > 0 && usernamelength > 0)
             {
-                //Selection selection = new Selection();
-                //selection.ShowDialog();
+                Selection selection = new Selection();
+                selection.ShowDialog();
 
                 this.Hide();
             }
