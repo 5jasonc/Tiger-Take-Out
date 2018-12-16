@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 // Jason Streeter
-// 12/5/18
+// 12/15/18
 // Tiger Take Out
 // OrderTracking.cs - holds all events on the order tracking form.
 
@@ -19,6 +19,7 @@ namespace TigerTakeOut
     {
         // Fields //
         CancelOrder cancelForm = new CancelOrder();
+        RateOrder rateForm = new RateOrder();
 
         // Constructor //
         public OrderTracking()
@@ -44,16 +45,23 @@ namespace TigerTakeOut
                 orderProgress.Value += orderProgress.Step;
             }
 
-            // Change flavor text below progress bar to update user
+            // Change flavor text below progress bar to update user, opens order review form when order is delivered
             if(orderProgress.Value < 200) { orderInfoLabel.Text = "Preparing order..."; }
             else if(orderProgress.Value < 350) { orderInfoLabel.Text = "Finishing your order..."; }
-            else { orderInfoLabel.Text = "Order is on its way!"; }
+            else if(orderProgress.Value < orderProgress.Maximum) { orderInfoLabel.Text = "Order is on its way!"; }
+            else
+            {
+                orderInfoLabel.Text = "Order delivered!";
+                orderTimer.Stop();
+                rateForm.ShowDialog();            
+                this.Close();
+            }
         }
 
         // Opens new form to confirm user wants to cancel order, acts accordingly based on user choice
         private void cancelOrderButton_Click(object sender, EventArgs e)
         {
-            if (!cancelForm.IsOrderCancelled())
+            if (!cancelForm.IsOrderCancelled() && orderProgress.Value < orderProgress.Maximum)
             {
                 cancelForm.ShowDialog();
 
@@ -63,12 +71,8 @@ namespace TigerTakeOut
                     orderInfoLabel.Text = "Order cancelled...";
                 }
             }
+            else if(!cancelForm.IsOrderCancelled()) { MessageBox.Show("Your order has already been delivered!"); }
             else { MessageBox.Show("Order has already been cancelled!"); }
-        }
-
-        private void goBackButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

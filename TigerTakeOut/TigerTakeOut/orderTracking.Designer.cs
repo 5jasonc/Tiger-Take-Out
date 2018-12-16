@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderTracking));
             this.cancelOrderButton = new System.Windows.Forms.Button();
             this.orderProgressLabel = new System.Windows.Forms.Label();
             this.orderProgress = new System.Windows.Forms.ProgressBar();
@@ -46,7 +45,6 @@
             this.zip = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.Label();
             this.apt = new System.Windows.Forms.Label();
-            this.goBackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cancelOrderButton
@@ -54,10 +52,10 @@
             this.cancelOrderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(60)))), ((int)(((byte)(49)))));
             this.cancelOrderButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelOrderButton.ForeColor = System.Drawing.Color.White;
-            this.cancelOrderButton.Location = new System.Drawing.Point(617, 475);
-            this.cancelOrderButton.Margin = new System.Windows.Forms.Padding(2);
+            this.cancelOrderButton.Location = new System.Drawing.Point(823, 585);
+            this.cancelOrderButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cancelOrderButton.Name = "cancelOrderButton";
-            this.cancelOrderButton.Size = new System.Drawing.Size(128, 37);
+            this.cancelOrderButton.Size = new System.Drawing.Size(171, 46);
             this.cancelOrderButton.TabIndex = 1;
             this.cancelOrderButton.Text = "Cancel Order";
             this.cancelOrderButton.UseVisualStyleBackColor = false;
@@ -68,10 +66,9 @@
             this.orderProgressLabel.AutoSize = true;
             this.orderProgressLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderProgressLabel.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderProgressLabel.Location = new System.Drawing.Point(58, 354);
-            this.orderProgressLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.orderProgressLabel.Location = new System.Drawing.Point(77, 436);
             this.orderProgressLabel.Name = "orderProgressLabel";
-            this.orderProgressLabel.Size = new System.Drawing.Size(188, 29);
+            this.orderProgressLabel.Size = new System.Drawing.Size(234, 35);
             this.orderProgressLabel.TabIndex = 2;
             this.orderProgressLabel.Text = "Order Progress:";
             // 
@@ -79,11 +76,11 @@
             // 
             this.orderProgress.BackColor = System.Drawing.Color.White;
             this.orderProgress.ForeColor = System.Drawing.Color.DarkOrange;
-            this.orderProgress.Location = new System.Drawing.Point(63, 395);
-            this.orderProgress.Margin = new System.Windows.Forms.Padding(2);
+            this.orderProgress.Location = new System.Drawing.Point(84, 486);
+            this.orderProgress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderProgress.Maximum = 500;
             this.orderProgress.Name = "orderProgress";
-            this.orderProgress.Size = new System.Drawing.Size(682, 28);
+            this.orderProgress.Size = new System.Drawing.Size(909, 34);
             this.orderProgress.Step = 5;
             this.orderProgress.TabIndex = 3;
             // 
@@ -92,10 +89,9 @@
             this.orderInfoLabel.AutoSize = true;
             this.orderInfoLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderInfoLabel.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderInfoLabel.Location = new System.Drawing.Point(60, 431);
-            this.orderInfoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.orderInfoLabel.Location = new System.Drawing.Point(80, 530);
             this.orderInfoLabel.Name = "orderInfoLabel";
-            this.orderInfoLabel.Size = new System.Drawing.Size(119, 16);
+            this.orderInfoLabel.Size = new System.Drawing.Size(139, 19);
             this.orderInfoLabel.TabIndex = 4;
             this.orderInfoLabel.Text = "Preparing order...";
             // 
@@ -104,10 +100,9 @@
             this.orderIssueLabel.AutoSize = true;
             this.orderIssueLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderIssueLabel.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderIssueLabel.Location = new System.Drawing.Point(663, 428);
-            this.orderIssueLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.orderIssueLabel.Location = new System.Drawing.Point(884, 527);
             this.orderIssueLabel.Name = "orderIssueLabel";
-            this.orderIssueLabel.Size = new System.Drawing.Size(82, 14);
+            this.orderIssueLabel.Size = new System.Drawing.Size(105, 16);
             this.orderIssueLabel.TabIndex = 5;
             this.orderIssueLabel.Text = "Have an Issue?";
             // 
@@ -116,10 +111,9 @@
             this.complaintNumberLabel.AutoSize = true;
             this.complaintNumberLabel.BackColor = System.Drawing.Color.Transparent;
             this.complaintNumberLabel.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.complaintNumberLabel.Location = new System.Drawing.Point(663, 442);
-            this.complaintNumberLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.complaintNumberLabel.Location = new System.Drawing.Point(884, 544);
             this.complaintNumberLabel.Name = "complaintNumberLabel";
-            this.complaintNumberLabel.Size = new System.Drawing.Size(82, 14);
+            this.complaintNumberLabel.Size = new System.Drawing.Size(107, 16);
             this.complaintNumberLabel.TabIndex = 6;
             this.complaintNumberLabel.Text = "(123) 456-7891";
             // 
@@ -128,10 +122,9 @@
             this.orderSummaryLabel.AutoSize = true;
             this.orderSummaryLabel.BackColor = System.Drawing.Color.Transparent;
             this.orderSummaryLabel.Font = new System.Drawing.Font("Georgia", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderSummaryLabel.Location = new System.Drawing.Point(819, 302);
-            this.orderSummaryLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.orderSummaryLabel.Location = new System.Drawing.Point(1092, 372);
             this.orderSummaryLabel.Name = "orderSummaryLabel";
-            this.orderSummaryLabel.Size = new System.Drawing.Size(225, 29);
+            this.orderSummaryLabel.Size = new System.Drawing.Size(281, 35);
             this.orderSummaryLabel.TabIndex = 7;
             this.orderSummaryLabel.Text = "Order Information:";
             // 
@@ -140,10 +133,9 @@
             this.addressLabel.AutoSize = true;
             this.addressLabel.BackColor = System.Drawing.Color.Transparent;
             this.addressLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressLabel.Location = new System.Drawing.Point(821, 343);
-            this.addressLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.addressLabel.Location = new System.Drawing.Point(1095, 422);
             this.addressLabel.Name = "addressLabel";
-            this.addressLabel.Size = new System.Drawing.Size(71, 18);
+            this.addressLabel.Size = new System.Drawing.Size(89, 23);
             this.addressLabel.TabIndex = 8;
             this.addressLabel.Text = "Address:";
             // 
@@ -152,10 +144,9 @@
             this.emailLabel.AutoSize = true;
             this.emailLabel.BackColor = System.Drawing.Color.Transparent;
             this.emailLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailLabel.Location = new System.Drawing.Point(821, 412);
-            this.emailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.emailLabel.Location = new System.Drawing.Point(1095, 507);
             this.emailLabel.Name = "emailLabel";
-            this.emailLabel.Size = new System.Drawing.Size(52, 18);
+            this.emailLabel.Size = new System.Drawing.Size(64, 23);
             this.emailLabel.TabIndex = 10;
             this.emailLabel.Text = "Email:";
             // 
@@ -163,11 +154,10 @@
             // 
             this.orderMethodLabel.AutoSize = true;
             this.orderMethodLabel.BackColor = System.Drawing.Color.Transparent;
-            this.orderMethodLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderMethodLabel.Location = new System.Drawing.Point(821, 446);
-            this.orderMethodLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.orderMethodLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderMethodLabel.Location = new System.Drawing.Point(1095, 549);
             this.orderMethodLabel.Name = "orderMethodLabel";
-            this.orderMethodLabel.Size = new System.Drawing.Size(190, 18);
+            this.orderMethodLabel.Size = new System.Drawing.Size(263, 24);
             this.orderMethodLabel.TabIndex = 14;
             this.orderMethodLabel.Text = "Order Method: TigerBucks";
             // 
@@ -178,74 +168,70 @@
             // street
             // 
             this.street.AutoSize = true;
+            this.street.BackColor = System.Drawing.Color.White;
             this.street.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.street.Location = new System.Drawing.Point(897, 345);
+            this.street.Location = new System.Drawing.Point(1196, 425);
+            this.street.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.street.Name = "street";
-            this.street.Size = new System.Drawing.Size(46, 16);
+            this.street.Size = new System.Drawing.Size(57, 19);
             this.street.TabIndex = 16;
             this.street.Text = "Street";
             // 
             // city
             // 
             this.city.AutoSize = true;
+            this.city.BackColor = System.Drawing.Color.White;
             this.city.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.city.Location = new System.Drawing.Point(821, 377);
+            this.city.Location = new System.Drawing.Point(1095, 464);
+            this.city.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.city.Name = "city";
-            this.city.Size = new System.Drawing.Size(32, 16);
+            this.city.Size = new System.Drawing.Size(40, 19);
             this.city.TabIndex = 16;
             this.city.Text = "City";
             // 
             // zip
             // 
             this.zip.AutoSize = true;
+            this.zip.BackColor = System.Drawing.Color.White;
             this.zip.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zip.Location = new System.Drawing.Point(969, 377);
+            this.zip.Location = new System.Drawing.Point(1292, 464);
+            this.zip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.zip.Name = "zip";
-            this.zip.Size = new System.Drawing.Size(27, 16);
+            this.zip.Size = new System.Drawing.Size(32, 19);
             this.zip.TabIndex = 16;
             this.zip.Text = "Zip";
             // 
             // email
             // 
             this.email.AutoSize = true;
+            this.email.BackColor = System.Drawing.Color.White;
             this.email.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.Location = new System.Drawing.Point(878, 414);
+            this.email.Location = new System.Drawing.Point(1171, 510);
+            this.email.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(44, 16);
+            this.email.Size = new System.Drawing.Size(49, 19);
             this.email.TabIndex = 16;
             this.email.Text = "email";
             // 
             // apt
             // 
             this.apt.AutoSize = true;
+            this.apt.BackColor = System.Drawing.Color.White;
             this.apt.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.apt.Location = new System.Drawing.Point(1041, 345);
+            this.apt.Location = new System.Drawing.Point(1388, 425);
+            this.apt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.apt.Name = "apt";
-            this.apt.Size = new System.Drawing.Size(58, 16);
+            this.apt.Size = new System.Drawing.Size(72, 19);
             this.apt.TabIndex = 16;
             this.apt.Text = "AptNum";
             // 
-            // goBackButton
-            // 
-            this.goBackButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
-            this.goBackButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goBackButton.ForeColor = System.Drawing.Color.White;
-            this.goBackButton.Location = new System.Drawing.Point(11, 790);
-            this.goBackButton.Margin = new System.Windows.Forms.Padding(2);
-            this.goBackButton.Name = "goBackButton";
-            this.goBackButton.Size = new System.Drawing.Size(212, 60);
-            this.goBackButton.TabIndex = 0;
-            this.goBackButton.Text = "Go Back";
-            this.goBackButton.UseVisualStyleBackColor = false;
-            this.goBackButton.Click += new System.EventHandler(this.goBackButton_Click);
-            // 
             // OrderTracking
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TigerTakeOut.Properties.Resources.tigertakeoutbg1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.zip);
             this.Controls.Add(this.email);
             this.Controls.Add(this.city);
@@ -261,9 +247,8 @@
             this.Controls.Add(this.orderProgress);
             this.Controls.Add(this.orderProgressLabel);
             this.Controls.Add(this.cancelOrderButton);
-            this.Controls.Add(this.goBackButton);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "OrderTracking";
             this.Text = "Tiger Take Out";
             this.ResumeLayout(false);
@@ -289,7 +274,6 @@
         private System.Windows.Forms.Label zip;
         private System.Windows.Forms.Label email;
         private System.Windows.Forms.Label apt;
-        private System.Windows.Forms.Button goBackButton;
     }
 }
 
